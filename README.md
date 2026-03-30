@@ -9,9 +9,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Giuseph66">
-    <img src="https://img.shields.io/badge/GitHub-Giuseph66-181717?style=for-the-badge&logo=github" alt="GitHub">
-  </a>
   <a href="https://www.linkedin.com/in/giuseph-giangareli-1bb910272">
     <img src="https://img.shields.io/badge/LinkedIn-Giuseph%20Giangareli-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
   </a>
