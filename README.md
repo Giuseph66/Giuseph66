@@ -147,14 +147,13 @@ Atualmente, meus repositórios mostram uma mistura de **produtos**, **protótipo
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Giuseph66&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Giuseph66&layout=compact&theme=tokyonight" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Giuseph66&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Giuseph66&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
 </p>
 
 <p align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=Giuseph66&theme=tokyonight&hide_border=false" />
+  <img height="170" src="https://streak-stats.demolab.com?user=Giuseph66&theme=tokyonight&hide_border=true" />
 </p>
-
 ---
 
 ## 🎯 Atualmente focado em
