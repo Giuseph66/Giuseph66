@@ -1,14 +1,17 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Olá%2C+eu+sou+Giuseph+%F0%9F%91%8B;Desenvolvedor+Full+Stack+%26+Mobile;Entusiasta+de+IA+e+Hardware" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Giuseph+%F0%9F%91%8B;Full+Stack+%26+Mobile+Developer;Computer+Engineering+Student;AI+%26+Hardware+Enthusiast" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <strong>Desenvolvedor Full Stack · Mobile · IA · IoT · Automação</strong>
+  <strong>Full Stack Developer · Mobile · AI · IoT · Automation</strong>
 </p>
 
 <p align="center">
-  Construo produtos do zero ao deploy — apps mobile, plataformas web, automações inteligentes e dispositivos embarcados.<br/>
-  Fundador da <strong>Neurelix</strong>, onde tecnologia vira produto real.
+  I build products from scratch to deployment — mobile apps, web platforms, intelligent automations and embedded devices.<br/>
+  Founder of <strong>Neurelix</strong>, where technology becomes a real product.<br/>
+  <img src="https://img.shields.io/badge/🇧🇷-Based%20in%20Brazil-009C3B?style=flat-square" alt="Brazil" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/🎓-Computer%20Engineering-6C63FF?style=flat-square" alt="Computer Engineering" />
 </p>
 
 <p align="center">
@@ -19,34 +22,34 @@
     <img src="https://img.shields.io/badge/Email-giusephgangareli%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://wa.me/5566999086599">
-    <img src="https://img.shields.io/badge/WhatsApp-Contato-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+    <img src="https://img.shields.io/badge/WhatsApp-Message%20me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
   </a>
   <a href="https://github.com/Giuseph66/Portifolio">
-    <img src="https://img.shields.io/badge/Portfólio-Ver%20projetos-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-View%20projects-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Giuseph66&label=Visitas%20ao%20perfil&color=6C63FF&style=flat-square" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Giuseph66&label=Profile%20views&color=6C63FF&style=flat-square" alt="Profile views" />
 </p>
 
 ---
 
-## Sobre mim
+## About me
 
-Desenvolvedor com foco em construir soluções que saem do papel e chegam ao usuário final. Meu trabalho atravessa múltiplas camadas da tecnologia:
+Developer focused on building solutions that leave the whiteboard and reach the end user. Currently pursuing a **Computer Engineering** degree while working across multiple layers of the tech stack:
 
-- **Mobile** — apps React Native/Expo com UX refinada, integração Firebase, câmera, localização, notificações e bancos locais
-- **Inteligência Artificial** — automações, assistentes, geração de relatórios e avaliações com IA aplicada
-- **Web & Ecossistemas Digitais** — plataformas, portfólios e marcas construídas do frontend ao backend
-- **Hardware & IoT** — projetos com Arduino, ESP32, NFC, wearables e automação física
-- **Produtividade & Ferramentas** — utilitários, CLIs, servidores e scripts que resolvem problemas reais
+- **Mobile** — React Native/Expo apps with refined UX, Firebase integration, camera, location, notifications and local databases
+- **Artificial Intelligence** — automations, assistants, report generation and AI-powered evaluations
+- **Web & Digital Ecosystems** — platforms, portfolios and brands built end-to-end
+- **Hardware & IoT** — projects with Arduino, ESP32, NFC, wearables and physical automation
+- **Productivity & Tooling** — utilities, CLIs, servers and scripts that solve real problems
 
-> Meu estilo: aprendo construindo. Cada repositório aqui é um passo de um produto, protótipo ou experimento com propósito.
+> My style: I learn by building. Every repo here is a step toward a real product, prototype or purposeful experiment.
 
 ---
 
-## Stack principal
+## Tech Stack
 
 ### Mobile & Frontend
 <p>
@@ -56,7 +59,7 @@ Desenvolvedor com foco em construir soluções que saem do papel e chegam ao usu
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 </p>
 
-### Backend & Dados
+### Backend & Data
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
@@ -70,7 +73,7 @@ Desenvolvedor com foco em construir soluções que saem do papel e chegam ao usu
   <img src="https://img.shields.io/badge/ESP32-222222?style=flat-square&logo=esphome&logoColor=white" />
 </p>
 
-### Ferramentas & Infra
+### Tools & Infrastructure
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
@@ -80,76 +83,76 @@ Desenvolvedor com foco em construir soluções que saem do papel e chegam ao usu
 
 ---
 
-## Projetos em destaque
+## Featured Projects
 
-### Mobile & Aplicações
-| Projeto | Descrição |
-|---------|-----------|
-| [Cafe_computacao](https://github.com/Giuseph66/Cafe_computacao) | Gestão de café acadêmico — créditos, assinaturas, histórico e painel admin |
-| [PAP](https://github.com/Giuseph66/PAP) | App mobile completo: câmera, GPS, notificações, SQLite, QR Code e Firebase |
-| [Barbearia_V2](https://github.com/Giuseph66/Barbearia_V2) | Solução mobile para gestão de barbearia |
-| [Cantina](https://github.com/Giuseph66/Cantina) | Fluxo de pedidos e organização de cantina |
-| [servico_norte_app](https://github.com/Giuseph66/servico_norte_app) | App de gestão de serviços com foco em usabilidade |
+### Mobile & Apps
+| Project | Description |
+|---------|-------------|
+| [Cafe_computacao](https://github.com/Giuseph66/Cafe_computacao) | Academic café management — credits, subscriptions, history and admin panel |
+| [PAP](https://github.com/Giuseph66/PAP) | Full-featured mobile app: camera, GPS, notifications, SQLite, QR Code and Firebase |
+| [Barbearia_V2](https://github.com/Giuseph66/Barbearia_V2) | Mobile solution for barbershop management |
+| [Cantina](https://github.com/Giuseph66/Cantina) | Order flow and canteen organization |
+| [servico_norte_app](https://github.com/Giuseph66/servico_norte_app) | Service management app with focus on usability |
 
-### IA & Automação
-| Projeto | Descrição |
-|---------|-----------|
-| [NEO_code](https://github.com/Giuseph66/NEO_code) | Ecossistema inteligente para desenvolvimento assistido |
-| [NEO-assistente](https://github.com/Giuseph66/NEO-assistente) | Assistente técnico com IA para suporte e produtividade |
-| [Avaliacoes_inteligentes](https://github.com/Giuseph66/Avaliacoes_inteligentes) | IA aplicada à geração e análise de avaliações |
-| [Relatorios-com-ia](https://github.com/Giuseph66/Relatorios-com-ia) | Geração automatizada de relatórios com inteligência artificial |
-| [ERP](https://github.com/Giuseph66/ERP) | Estrutura base para sistemas de gestão empresarial |
+### AI & Automation
+| Project | Description |
+|---------|-------------|
+| [NEO_code](https://github.com/Giuseph66/NEO_code) | Intelligent ecosystem for AI-assisted development |
+| [NEO-assistente](https://github.com/Giuseph66/NEO-assistente) | Technical AI assistant for support and productivity |
+| [Avaliacoes_inteligentes](https://github.com/Giuseph66/Avaliacoes_inteligentes) | AI applied to evaluation generation and analysis |
+| [Relatorios-com-ia](https://github.com/Giuseph66/Relatorios-com-ia) | Automated report generation with artificial intelligence |
+| [ERP](https://github.com/Giuseph66/ERP) | Base structure for enterprise resource planning systems |
 
 ### Hardware & IoT
-| Projeto | Descrição |
-|---------|-----------|
-| [relogio-blue](https://github.com/Giuseph66/relogio-blue) | Wearable com integração hardware-software via Bluetooth |
-| [Portas](https://github.com/Giuseph66/Portas) | Automação e controle de acesso físico/digital |
-| [Scan-NFC-e-](https://github.com/Giuseph66/Scan-NFC-e-) | Leitura e escaneamento NFC |
-| [QR_code_biblioteca](https://github.com/Giuseph66/QR_code_biblioteca) | Controle de biblioteca via QR Code |
-| [Arduino](https://github.com/Giuseph66/Arduino) | Experimentos e protótipos com microcontroladores |
+| Project | Description |
+|---------|-------------|
+| [relogio-blue](https://github.com/Giuseph66/relogio-blue) | Wearable device with hardware-software integration via Bluetooth |
+| [Portas](https://github.com/Giuseph66/Portas) | Physical/digital access control and automation |
+| [Scan-NFC-e-](https://github.com/Giuseph66/Scan-NFC-e-) | NFC reading and scanning solution |
+| [QR_code_biblioteca](https://github.com/Giuseph66/QR_code_biblioteca) | Library management system via QR Code |
+| [Arduino](https://github.com/Giuseph66/Arduino) | Experiments and prototypes with microcontrollers |
 
-### Web & Marca Neurelix
-| Projeto | Descrição |
-|---------|-----------|
-| [neurelix-website](https://github.com/Giuseph66/neurelix-website) | Site institucional da Neurelix |
-| [neurelix-nexus-frontend](https://github.com/Giuseph66/neurelix-nexus-frontend) | Frontend da plataforma Neurelix Nexus |
-| [neurelix-nexus-backend](https://github.com/Giuseph66/neurelix-nexus-backend) | API e backend da plataforma Neurelix Nexus |
-| [Portifolio](https://github.com/Giuseph66/Portifolio) | Portfólio pessoal com identidade profissional |
-| [FASTSHII](https://github.com/Giuseph66/FASTSHII) | App Expo/React Native |
+### Web & Neurelix Brand
+| Project | Description |
+|---------|-------------|
+| [neurelix-website](https://github.com/Giuseph66/neurelix-website) | Neurelix institutional website |
+| [neurelix-nexus-frontend](https://github.com/Giuseph66/neurelix-nexus-frontend) | Frontend for the Neurelix Nexus platform |
+| [neurelix-nexus-backend](https://github.com/Giuseph66/neurelix-nexus-backend) | API and backend for the Neurelix Nexus platform |
+| [Portifolio](https://github.com/Giuseph66/Portifolio) | Personal portfolio with professional identity |
+| [FASTSHII](https://github.com/Giuseph66/FASTSHII) | Expo/React Native app |
 
 ---
 
 <details>
-<summary><strong>Ver repositórios adicionais</strong></summary>
+<summary><strong>View additional repositories</strong></summary>
 
 <br/>
 
-### Experimentação & Protótipos
-- [Visualizador-3D](https://github.com/Giuseph66/Visualizador-3D) — renderização e visualização 3D
-- [Catalago-3d](https://github.com/Giuseph66/Catalago-3d) — catálogo com interface 3D
-- [Sala-de-desenho](https://github.com/Giuseph66/Sala-de-desenho) — canvas de desenho colaborativo
-- [Editor-automatico](https://github.com/Giuseph66/Editor-automatico) — edição automatizada de conteúdo
-- [chat](https://github.com/Giuseph66/chat) / [evo](https://github.com/Giuseph66/evo) — protótipos de comunicação em tempo real
+### Experiments & Prototypes
+- [Visualizador-3D](https://github.com/Giuseph66/Visualizador-3D) — 3D rendering and visualization
+- [Catalago-3d](https://github.com/Giuseph66/Catalago-3d) — catalog with 3D interface
+- [Sala-de-desenho](https://github.com/Giuseph66/Sala-de-desenho) — collaborative drawing canvas
+- [Editor-automatico](https://github.com/Giuseph66/Editor-automatico) — automated content editor
+- [chat](https://github.com/Giuseph66/chat) / [evo](https://github.com/Giuseph66/evo) — real-time communication prototypes
 
-### Infraestrutura & Ferramentas
-- [Servidores](https://github.com/Giuseph66/Servidores) — configuração e gestão de servidores
-- [instalador_apps_linux](https://github.com/Giuseph66/instalador_apps_linux) — automação de setup Linux
-- [cloudflare](https://github.com/Giuseph66/cloudflare) — configurações e integrações Cloudflare
-- [Conversor_ascii](https://github.com/Giuseph66/Conversor_ascii) — utilitário de conversão ASCII
-- [send_email](https://github.com/Giuseph66/send_email) — utilitário para envio automatizado de e-mails
+### Infrastructure & Tools
+- [Servidores](https://github.com/Giuseph66/Servidores) — server configuration and management
+- [instalador_apps_linux](https://github.com/Giuseph66/instalador_apps_linux) — Linux setup automation
+- [cloudflare](https://github.com/Giuseph66/cloudflare) — Cloudflare configs and integrations
+- [Conversor_ascii](https://github.com/Giuseph66/Conversor_ascii) — ASCII conversion utility
+- [send_email](https://github.com/Giuseph66/send_email) — automated email sending utility
 
-### Acadêmico
-- [Trabalhos_Faculdade](https://github.com/Giuseph66/Trabalhos_Faculdade) — projetos acadêmicos
-- [estutura-de-dados](https://github.com/Giuseph66/estutura-de-dados) — estruturas de dados
-- [grafo](https://github.com/Giuseph66/grafo) — algoritmos de grafos
-- [TD_latex](https://github.com/Giuseph66/TD_latex) — trabalhos em LaTeX
+### Academic
+- [Trabalhos_Faculdade](https://github.com/Giuseph66/Trabalhos_Faculdade) — university projects
+- [estutura-de-dados](https://github.com/Giuseph66/estutura-de-dados) — data structures
+- [grafo](https://github.com/Giuseph66/grafo) — graph algorithms
+- [TD_latex](https://github.com/Giuseph66/TD_latex) — LaTeX academic papers
 
-### Projetos Autorais & Ideias
-- [Neo-Mobile](https://github.com/Giuseph66/Neo-Mobile) — linha mobile do ecossistema Neo
-- [Totari](https://github.com/Giuseph66/Totari) — marca e projeto autoral
-- [_TechPsico_](https://github.com/Giuseph66/_TechPsico_) — interseção entre tecnologia e psicologia
-- [Desafio_projeto_esfera](https://github.com/Giuseph66/Desafio_projeto_esfera) — desafio de produto
+### Original Projects & Ideas
+- [Neo-Mobile](https://github.com/Giuseph66/Neo-Mobile) — mobile line of the Neo ecosystem
+- [Totari](https://github.com/Giuseph66/Totari) — original brand and project
+- [_TechPsico_](https://github.com/Giuseph66/_TechPsico_) — intersection of technology and psychology
+- [Desafio_projeto_esfera](https://github.com/Giuseph66/Desafio_projeto_esfera) — product challenge
 
 </details>
 
@@ -163,24 +166,25 @@ Desenvolvedor com foco em construir soluções que saem do papel e chegam ao usu
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Giuseph66&theme=tokyonight&hide_border=true&locale=pt_BR" />
+  <img src="https://streak-stats.demolab.com?user=Giuseph66&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-## Foco atual
+## Currently focused on
 
-- Consolidar o ecossistema **Neurelix** como produto real e escalável
-- Aprofundar soluções mobile com experiências mais completas e polidas
-- Integrar IA em produtos práticos de uso cotidiano
-- Unir software, automação e hardware em projetos com impacto tangível
+- Consolidating the **Neurelix** ecosystem as a real, scalable product
+- Deepening mobile solutions with more complete and polished experiences
+- Applying AI to practical, everyday products
+- Bridging software, automation and hardware in projects with tangible impact
+- Growing as a Computer Engineering student while shipping real-world projects
 
 ---
 
-## Contato
+## Contact
 
 <p>
-  📍 Sinop – MT, Brasil &nbsp;|&nbsp;
+  📍 Sinop – MT, Brazil &nbsp;|&nbsp;
   📧 <a href="mailto:giusephgangareli@gmail.com">giusephgangareli@gmail.com</a> &nbsp;|&nbsp;
   💼 <a href="https://www.linkedin.com/in/giuseph-giangareli-1bb910272">LinkedIn</a> &nbsp;|&nbsp;
   💬 <a href="https://wa.me/5566999086599">WhatsApp</a>
@@ -189,5 +193,5 @@ Desenvolvedor com foco em construir soluções que saem do papel e chegam ao usu
 ---
 
 <p align="center">
-  <em>"Tecnologia que sai da ideia e vira algo real — app, sistema, automação ou hardware."</em>
+  <em>"Technology that leaves the idea stage and becomes something real — app, system, automation or hardware."</em>
 </p>
