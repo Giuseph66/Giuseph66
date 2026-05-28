@@ -57,6 +57,7 @@ Developer focused on building solutions that leave the whiteboard and reach the 
   <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
 </p>
 
 ### Backend & Data
@@ -71,6 +72,7 @@ Developer focused on building solutions that leave the whiteboard and reach the 
 <p>
   <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" />
   <img src="https://img.shields.io/badge/ESP32-222222?style=flat-square&logo=esphome&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
 </p>
 
 ### Tools & Infrastructure
@@ -78,6 +80,7 @@ Developer focused on building solutions that leave the whiteboard and reach the 
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
   <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
 </p>
 
@@ -92,7 +95,8 @@ Developer focused on building solutions that leave the whiteboard and reach the 
 | [PAP](https://github.com/Giuseph66/PAP) | Full-featured mobile app: camera, GPS, notifications, SQLite, QR Code and Firebase |
 | [Barbearia_V2](https://github.com/Giuseph66/Barbearia_V2) | Mobile solution for barbershop management |
 | [Cantina](https://github.com/Giuseph66/Cantina) | Order flow and canteen organization |
-| [servico_norte_app](https://github.com/Giuseph66/servico_norte_app) | Service management app with focus on usability |
+| [cha_panela](https://github.com/Giuseph66/cha_panela) | Event management mobile app |
+| [servico_norte_app](https://github.com/Giuseph66/servico_norte_app) | Service management app |
 
 ### AI & Automation
 | Project | Description |
@@ -101,12 +105,15 @@ Developer focused on building solutions that leave the whiteboard and reach the 
 | [NEO-assistente](https://github.com/Giuseph66/NEO-assistente) | Technical AI assistant for support and productivity |
 | [Avaliacoes_inteligentes](https://github.com/Giuseph66/Avaliacoes_inteligentes) | AI applied to evaluation generation and analysis |
 | [Relatorios-com-ia](https://github.com/Giuseph66/Relatorios-com-ia) | Automated report generation with artificial intelligence |
+| [Dorman](https://github.com/Giuseph66/Dorman) | Python automation tool |
+| [Monitorador_chat](https://github.com/Giuseph66/Monitorador_chat) | Chat monitoring and automation |
 | [ERP](https://github.com/Giuseph66/ERP) | Base structure for enterprise resource planning systems |
 
 ### Hardware & IoT
 | Project | Description |
 |---------|-------------|
 | [relogio-blue](https://github.com/Giuseph66/relogio-blue) | Wearable device with hardware-software integration via Bluetooth |
+| [moto](https://github.com/Giuseph66/moto) | C++ embedded/motor control project |
 | [Portas](https://github.com/Giuseph66/Portas) | Physical/digital access control and automation |
 | [Scan-NFC-e-](https://github.com/Giuseph66/Scan-NFC-e-) | NFC reading and scanning solution |
 | [QR_code_biblioteca](https://github.com/Giuseph66/QR_code_biblioteca) | Library management system via QR Code |
@@ -118,8 +125,9 @@ Developer focused on building solutions that leave the whiteboard and reach the 
 | [neurelix-website](https://github.com/Giuseph66/neurelix-website) | Neurelix institutional website |
 | [neurelix-nexus-frontend](https://github.com/Giuseph66/neurelix-nexus-frontend) | Frontend for the Neurelix Nexus platform |
 | [neurelix-nexus-backend](https://github.com/Giuseph66/neurelix-nexus-backend) | API and backend for the Neurelix Nexus platform |
+| [my-system](https://github.com/Giuseph66/my-system) | Personal management system |
+| [LabPage](https://github.com/Giuseph66/LabPage) | Lab/project showcase page |
 | [Portifolio](https://github.com/Giuseph66/Portifolio) | Personal portfolio with professional identity |
-| [FASTSHII](https://github.com/Giuseph66/FASTSHII) | Expo/React Native app |
 
 ---
 
@@ -133,25 +141,35 @@ Developer focused on building solutions that leave the whiteboard and reach the 
 - [Catalago-3d](https://github.com/Giuseph66/Catalago-3d) — catalog with 3D interface
 - [Sala-de-desenho](https://github.com/Giuseph66/Sala-de-desenho) — collaborative drawing canvas
 - [Editor-automatico](https://github.com/Giuseph66/Editor-automatico) — automated content editor
-- [chat](https://github.com/Giuseph66/chat) / [evo](https://github.com/Giuseph66/evo) — real-time communication prototypes
+- [chat](https://github.com/Giuseph66/chat) — real-time communication prototype
+- [evo](https://github.com/Giuseph66/evo) — evolution/experiment prototype
+- [APOC](https://github.com/Giuseph66/APOC) — JavaScript experiment
+- [FASTSHII](https://github.com/Giuseph66/FASTSHII) — Expo/React Native app
 
 ### Infrastructure & Tools
+- [server-rotate-key](https://github.com/Giuseph66/server-rotate-key) — server key rotation utility
 - [Servidores](https://github.com/Giuseph66/Servidores) — server configuration and management
 - [instalador_apps_linux](https://github.com/Giuseph66/instalador_apps_linux) — Linux setup automation
-- [cloudflare](https://github.com/Giuseph66/cloudflare) — Cloudflare configs and integrations
+- [Lado_errado](https://github.com/Giuseph66/Lado_errado) — shell utility script
 - [Conversor_ascii](https://github.com/Giuseph66/Conversor_ascii) — ASCII conversion utility
 - [send_email](https://github.com/Giuseph66/send_email) — automated email sending utility
+- [salvar](https://github.com/Giuseph66/salvar) — file save utility
+- [Prompts_AI](https://github.com/Giuseph66/Prompts_AI) — curated AI prompt collection
+- [coffe_web](https://github.com/Giuseph66/coffe_web) — web interface for café project
 
 ### Academic
 - [Trabalhos_Faculdade](https://github.com/Giuseph66/Trabalhos_Faculdade) — university projects
 - [estutura-de-dados](https://github.com/Giuseph66/estutura-de-dados) — data structures
 - [grafo](https://github.com/Giuseph66/grafo) — graph algorithms
 - [TD_latex](https://github.com/Giuseph66/TD_latex) — LaTeX academic papers
+- [T_2_base-de-dados](https://github.com/Giuseph66/T_2_base-de-dados) — database coursework
+- [Progetos_Particulares](https://github.com/Giuseph66/Progetos_Particulares) — early learning projects
 
 ### Original Projects & Ideas
 - [Neo-Mobile](https://github.com/Giuseph66/Neo-Mobile) — mobile line of the Neo ecosystem
 - [Totari](https://github.com/Giuseph66/Totari) — original brand and project
 - [_TechPsico_](https://github.com/Giuseph66/_TechPsico_) — intersection of technology and psychology
+- [Atletica_PSICONAUTAS](https://github.com/Giuseph66/Atletica_PSICONAUTAS) — athletics club project
 - [Desafio_projeto_esfera](https://github.com/Giuseph66/Desafio_projeto_esfera) — product challenge
 
 </details>
