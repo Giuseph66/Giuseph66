@@ -96,7 +96,6 @@ Developer focused on building solutions that leave the whiteboard and reach the 
 | [Barbearia_V2](https://github.com/Giuseph66/Barbearia_V2) | Mobile solution for barbershop management |
 | [Cantina](https://github.com/Giuseph66/Cantina) | Order flow and canteen organization |
 | [cha_panela](https://github.com/Giuseph66/cha_panela) | Event management mobile app |
-| [servico_norte_app](https://github.com/Giuseph66/servico_norte_app) | Service management app |
 
 ### AI & Automation
 | Project | Description |
