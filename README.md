@@ -1,17 +1,20 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Giuseph+%F0%9F%91%8B;Full+Stack+%26+Mobile+Developer;Computer+Engineering+Student;AI+%26+Hardware+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=28&amp;pause=1000&amp;color=6C63FF&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=Hey%2C+I'm+Giuseph+%F0%9F%91%8B;Full+Stack+%26+Mobile+Developer;Computer+Engineering+Student;Founder+%40+Neurelix;AI+%C2%B7+IoT+%C2%B7+Hardware" alt="Hey, I'm Giuseph — Full Stack &amp; Mobile Developer, Computer Engineering Student, Founder @ Neurelix" />
 </h1>
 
 <p align="center">
-  <strong>Full Stack Developer · Mobile · AI · IoT · Automation</strong>
-</p>
-
-<p align="center">
-  I build products from scratch to deployment — mobile apps, web platforms, intelligent automations and embedded devices.<br/>
-  Founder of <strong>Neurelix</strong>, where technology becomes a real product.<br/>
-  <img src="https://img.shields.io/badge/🇧🇷-Based%20in%20Brazil-009C3B?style=flat-square" alt="Brazil" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/🎓-Computer%20Engineering-6C63FF?style=flat-square" alt="Computer Engineering" />
+  <a href="https://github.com/Giuseph66#gh-dark-mode-only">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/profile-terminal-mobile.svg" />
+      <img src="./assets/profile-terminal.svg" width="860" alt="Giuseph Giangareli — ASCII portrait; Full Stack and Mobile Developer; Computer Engineering student; founder of Neurelix; software, AI and hardware" />
+    </picture>
+  </a>
+  <a href="https://github.com/Giuseph66#gh-light-mode-only">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/profile-terminal-mobile-light.svg" />
+      <img src="./assets/profile-terminal-light.svg" width="860" alt="Giuseph Giangareli — ASCII portrait; Full Stack and Mobile Developer; Computer Engineering student; founder of Neurelix; software, AI and hardware" />
+    </picture>
+  </a>
 </p>
 
 <p align="center">
@@ -27,10 +30,6 @@
   <a href="https://github.com/Giuseph66/Portifolio">
     <img src="https://img.shields.io/badge/Portfolio-View%20projects-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" />
   </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Giuseph66&label=Profile%20views&color=6C63FF&style=flat-square" alt="Profile views" />
 </p>
 
 ---
@@ -53,35 +52,35 @@ Developer focused on building solutions that leave the whiteboard and reach the 
 
 ### Mobile & Frontend
 <p>
-  <img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
 </p>
 
 ### Backend & Data
 <p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
 </p>
 
 ### Hardware & IoT
 <p>
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" />
-  <img src="https://img.shields.io/badge/ESP32-222222?style=flat-square&logo=esphome&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" alt="Arduino" />
+  <img src="https://img.shields.io/badge/ESP32-222222?style=flat-square&logo=esphome&logoColor=white" alt="ESP32" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
 </p>
 
 ### Tools & Infrastructure
 <p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
 </p>
 
 ---
@@ -178,13 +177,35 @@ Developer focused on building solutions that leave the whiteboard and reach the 
 ## GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats-salesp07.vercel.app/api?username=Giuseph66&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="180" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=Giuseph66&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <a href="https://github.com/Giuseph66?tab=overview#gh-dark-mode-only">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/contrib-heatmap-mobile.svg" />
+      <img src="./assets/contrib-heatmap.svg" width="860" alt="Giuseph66's public contribution calendar" />
+    </picture>
+  </a>
+  <a href="https://github.com/Giuseph66?tab=overview#gh-light-mode-only">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/contrib-heatmap-mobile-light.svg" />
+      <img src="./assets/contrib-heatmap-light.svg" width="860" alt="Giuseph66's public contribution calendar" />
+    </picture>
+  </a>
+</p>
+
+<p align="center"><sub>Contribution calendar generated from my public GitHub profile and refreshed daily through GitHub Actions.</sub></p>
+
+<p align="center">
+  <a href="https://github.com/Giuseph66#gh-dark-mode-only"><img align="top" width="430" src="https://github-stats-extended.vercel.app/api?username=Giuseph66&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;include_all_commits=true&amp;disable_animations=true#gh-dark-mode-only" alt="Giuseph's GitHub statistics" /></a>
+  <a href="https://github.com/Giuseph66#gh-light-mode-only"><img align="top" width="430" src="https://github-stats-extended.vercel.app/api?username=Giuseph66&amp;show_icons=true&amp;theme=default&amp;title_color=6C63FF&amp;icon_color=6C63FF&amp;text_color=24292F&amp;border_color=D0D7DE&amp;include_all_commits=true&amp;disable_animations=true#gh-light-mode-only" alt="Giuseph's GitHub statistics" /></a>
+  <a href="https://github.com/Giuseph66?tab=repositories#gh-dark-mode-only"><img align="top" width="295" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Giuseph66&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;langs_count=8&amp;disable_animations=true#gh-dark-mode-only" alt="Most used languages across public repositories" /></a>
+  <a href="https://github.com/Giuseph66?tab=repositories#gh-light-mode-only"><img align="top" width="295" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Giuseph66&amp;layout=compact&amp;theme=default&amp;title_color=6C63FF&amp;text_color=24292F&amp;border_color=D0D7DE&amp;langs_count=8&amp;disable_animations=true#gh-light-mode-only" alt="Most used languages across public repositories" /></a>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Giuseph66&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/Giuseph66#gh-dark-mode-only"><img width="495" src="https://streak-stats.demolab.com?user=Giuseph66&amp;theme=tokyonight&amp;hide_border=true&amp;disable_animations=true#gh-dark-mode-only" alt="Total contributions, current streak and longest streak" /></a>
+  <a href="https://github.com/Giuseph66#gh-light-mode-only"><img width="495" src="https://streak-stats.demolab.com?user=Giuseph66&amp;theme=default&amp;ring=6C63FF&amp;fire=6C63FF&amp;currStreakLabel=6C63FF&amp;border=D0D7DE&amp;disable_animations=true#gh-light-mode-only" alt="Total contributions, current streak and longest streak" /></a>
 </p>
+
+[View contribution history](https://github.com/Giuseph66?tab=overview) · [Explore repositories](https://github.com/Giuseph66?tab=repositories)
 
 ---
 
