@@ -8,7 +8,8 @@ To replace the portrait, supply a prepared image: subject on a transparent backg
 contribution workflow does not need it. Dark and light cards get separate renders so
 the face is never shown as a negative.
 The committed portrait comes from https://avatars.githubusercontent.com/u/144301215.
-    python scripts/generate_terminal.py --avatar /path/to/portrait.png
+    python scripts/prep_photo.py avatar.jpg /tmp/portrait.png   # background removal, contrast
+    python scripts/generate_terminal.py --avatar /tmp/portrait.png
 """
 
 import argparse

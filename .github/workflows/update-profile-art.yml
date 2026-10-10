@@ -2,12 +2,13 @@ name: Update profile art
 
 on:
   schedule:
-    - cron: '17 6 * * *'
+    - cron: '17 */6 * * *'
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - scripts/update_profile_art.py
+      - scripts/update_github_stats.py
       - .github/workflows/update-profile-art.yml
 
 permissions:
@@ -18,7 +19,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  heatmap:
+  stats:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -26,15 +27,21 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: '3.13'
-      - name: Refresh public contribution calendar
+      - name: Refresh contribution stats from the public calendar
         run: python scripts/update_profile_art.py
+      - name: Refresh GitHub stats and languages from the REST API
+        # The API can rate-limit; keep the previous card and still commit the calendar stats.
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_github_stats.py
       - name: Commit updated artwork
         run: |
-          git add data/contributions.json assets/contrib-heatmap*.svg
+          git add data/contributions.json data/github-stats.json assets/contrib-stats*.svg assets/github-stats*.svg
           if git diff --cached --quiet; then
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'chore: refresh contribution graph [skip ci]'
+          git commit -m 'chore: refresh profile stats [skip ci]'
           git push
