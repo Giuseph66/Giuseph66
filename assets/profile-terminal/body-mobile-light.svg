@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420.000" height="776" viewBox="0.000 44 420.000 776" role="img" aria-labelledby="title desc">
+<title id="title">Giuseph Giangareli — software, mobile, AI and hardware</title>
+<desc id="desc">ASCII portrait from Giuseph's GitHub avatar. Full Stack and Mobile Developer, Computer Engineering student, founder of Neurelix, based in Sinop, Brazil.</desc>
+<style>
+text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; }
+.ascii { fill: #57606A; animation: type-row .45s both; }
+.line { animation: print-line .4s both; }
+@keyframes type-row { from { opacity: 0; clip-path: inset(0 100% 0 0); } to { opacity: 1; clip-path: inset(0); } }
+@keyframes print-line { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { .ascii, .line { animation: none; } }
+</style>
+<rect x=".5" y=".5" width="419" height="819" rx="14" fill="#FFFFFF" stroke="#D0D7DE" />
+<path d="M1 43H419" stroke="#D0D7DE" />
+<circle cx="23" cy="23" r="4" fill="#6C63FF" /><circle cx="39" cy="23" r="4" fill="#D0D7DE" /><circle cx="55" cy="23" r="4" fill="#D0D7DE" />
+<text x="78" y="28" fill="#57606A" font-size="12">giuseph66@github ~ $ neofetch</text>
+<text class="ascii" x="71" y="72.00" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.000s">                                                                                </text>
+<text class="ascii" x="71" y="76.41" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.020s">                                  &#x27;;:     :+!.:!!;&#x27;                             </text>
+<text class="ascii" x="71" y="80.83" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.040s">                           ... &#x27;&#x27;!!&#x27;;:&#x27;&#x27;;+?x&amp;%&amp;%&amp;##x;.                          </text>
+<text class="ascii" x="71" y="85.24" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.060s">                         .;!*+*???x++?xx%xx%x?&amp;&amp;%;;#@%:                         </text>
+<text class="ascii" x="71" y="89.65" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.080s">                        .*!*+x&amp;xxx%%x%&amp;#@&amp;&amp;&amp;%x&amp;*+;+%&amp;@&amp;*                        </text>
+<text class="ascii" x="71" y="94.07" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.100s">                        ++!*?%&amp;&amp;&amp;%x%&amp;&amp;##@@#&amp;###%%x&amp;%%##%+                       </text>
+<text class="ascii" x="71" y="98.48" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.120s">                       ;??*+x%#@##&amp;%x%%&amp;##@#@@@##&amp;&amp;&amp;x%%?%!&#x27;                     </text>
+<text class="ascii" x="71" y="102.89" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.140s">                      :+xx+?xx&amp;&amp;x?xx++?xxx%%&amp;&amp;#@@@#%%%%+!*?.                    </text>
+<text class="ascii" x="71" y="107.31" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.160s">                     .*??x%x%%%?*+xx?+!**!****+?%####&amp;xx;:x!                    </text>
+<text class="ascii" x="71" y="111.72" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.180s">                     !xx+!?&amp;&amp;&amp;&amp;x?x?*!:.&#x27;&#x27;.&#x27;:;::;!*+x&amp;#%x??&amp;x:                   </text>
+<text class="ascii" x="71" y="116.13" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.200s">                    !x%%?*?x%%?+*;:&#x27;.     .&#x27;::&#x27;&#x27;&#x27;:::*%%??&amp;#&amp;*                   </text>
+<text class="ascii" x="71" y="120.55" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.220s">                   ;?&amp;&amp;&amp;####x*!;::&#x27;.     ..&#x27;&#x27;:;:&#x27;&#x27;&#x27;..!x?x&amp;#&amp;:                   </text>
+<text class="ascii" x="71" y="124.96" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.240s">                   *%&amp;&amp;###@x!;::&#x27;&#x27;&#x27;.     ...&#x27;&#x27;:;;;;:::;%%%&amp;&amp;+                   </text>
+<text class="ascii" x="71" y="129.37" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.260s">                  :%&amp;&amp;#@##&amp;*;::&#x27;&#x27;&#x27;&#x27;...........&#x27;&#x27;:::.  &#x27;!&amp;&amp;%&amp;%!                  </text>
+<text class="ascii" x="71" y="133.79" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.280s">                  ?####@@@x!::&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;...........&#x27;&#x27;&#x27;&#x27;..&#x27;. !&amp;%%%x&#x27;                 </text>
+<text class="ascii" x="71" y="138.20" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.300s">                 !####@@@#+;:::&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;..........&#x27;&#x27;&#x27;.&#x27;.   +%%xx;                 </text>
+<text class="ascii" x="71" y="142.61" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.320s">                &#x27;%##@@@@#%*::&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.............   ..:x%%%+                 </text>
+<text class="ascii" x="71" y="147.03" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.340s">                *&amp;#@@@@#&amp;?!;:&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;...............    ...*x&amp;#x                 </text>
+<text class="ascii" x="71" y="151.44" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.360s">               .?#@@@@##&amp;?!::::&#x27;&#x27;&#x27;....     ........       ;%&amp;#x&#x27;                </text>
+<text class="ascii" x="71" y="155.85" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.380s">                x#@@@@##&amp;?;::::&#x27;&#x27;;!!;;::&#x27;........&#x27;&#x27;;!**+!&#x27;&#x27;%&amp;#x:                </text>
+<text class="ascii" x="71" y="160.26" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.400s">                +@@@##@@&amp;?;:::&#x27;&#x27;*?%&amp;&amp;&amp;&amp;&amp;x*:&#x27;&#x27;&#x27;&#x27;&#x27;:*?&amp;##&amp;&amp;%x+??%%*                </text>
+<text class="ascii" x="71" y="164.68" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.420s">                !#@##@@@&amp;*:::&#x27;:+x?x&amp;&amp;&amp;#&amp;&amp;%?*!!!*?%%xx?+++*!&#x27; .?&amp;:               </text>
+<text class="ascii" x="71" y="169.09" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.440s">                &#x27;###@@@@&amp;!:;!*?x?*++++++?x%&amp;&amp;##&amp;&amp;x++?+*!!!!:  :%&#x27;               </text>
+<text class="ascii" x="71" y="173.50" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.460s">                &#x27;&amp;##@@@@%!!%#%?+**!!!**+++?x##&amp;#&amp;?xxx?+*!**;                    </text>
+<text class="ascii" x="71" y="177.92" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.480s">                 *&amp;#@@#@x!*&amp;&amp;++++***+????x?x#+:*&amp;%%&amp;&amp;&amp;%xx+*!                    </text>
+<text class="ascii" x="71" y="182.33" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.500s">                 &#x27;%#@@@%&#x27;;?*x?++??x&amp;&amp;%?x%x?%&amp;;&#x27;.;&amp;x%&amp;&amp;x*++*!&#x27;                   </text>
+<text class="ascii" x="71" y="186.74" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.520s">                  ?##@? &#x27;*!;?x+?xx?x%?+xxx+&amp;?:&#x27;. !%??x?+*;!&#x27;.                   </text>
+<text class="ascii" x="71" y="191.16" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.540s">                  +###x?%+*!+%++**+++++++*+&amp;;:&#x27;.  +?!**!!;&#x27;  &#x27;&#x27;                 </text>
+<text class="ascii" x="71" y="195.57" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.560s">                  :&amp;@#@@%;:::?+;!!*!!!;;;;%+::&#x27;.   ??**!**;!!**                 </text>
+<text class="ascii" x="71" y="199.98" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.580s">                   ;%@@#?..&#x27;.:?;:&#x27;&#x27;&#x27;&#x27;:;;!%%;:&#x27;.    &#x27;;!****;&#x27;. ;.                </text>
+<text class="ascii" x="71" y="204.40" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.600s">                  &#x27;:;%&amp;#+.....:+*****++???*;&#x27;...&#x27;&#x27;   .&#x27;&#x27;&#x27;&#x27;....&#x27;.                </text>
+<text class="ascii" x="71" y="208.81" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.620s">                  :*!;*x?&#x27;&#x27;.... .&#x27;&#x27;::;;;;;!&#x27;&#x27;:!!!!:::....&#x27;&#x27;&#x27;&#x27;.&#x27;.                </text>
+<text class="ascii" x="71" y="213.22" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.640s">                  :;&#x27;&#x27;;+?:..&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;::&#x27;&#x27;:!;;+%%x?+?#%;&#x27;...&#x27;&#x27;&#x27;&#x27;:.                </text>
+<text class="ascii" x="71" y="217.64" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.660s">                  &#x27;&#x27;.:?*?*&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;:&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;:;*?&amp;#&amp;%x*+x+&#x27;&#x27;...&#x27;&#x27;&#x27;&#x27;:.                </text>
+<text class="ascii" x="71" y="222.05" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.680s">                   ..!?:*x;&#x27;&#x27;&#x27;:::&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;:!?xx%x+?xx;  ......:&#x27;.                </text>
+<text class="ascii" x="71" y="226.46" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.700s">                    .;!&#x27;;xx!::::&#x27;&#x27;&#x27;&#x27;..&#x27;..&#x27;:;+x%%?x&amp;&amp;%+&#x27;    ..::.                </text>
+<text class="ascii" x="71" y="230.88" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.720s">                    ..&#x27;;!x%?!:::&#x27;&#x27;&#x27;.......&#x27;!x&amp;&amp;x***+%%x*:....;!                 </text>
+<text class="ascii" x="71" y="235.29" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.740s">                    ....;+x%+;:::&#x27;&#x27;..&#x27;&#x27;.&#x27;;*%&amp;&amp;x+!;;*??xx?!..:*!                 </text>
+<text class="ascii" x="71" y="239.70" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.760s">                    .. .:!?%x*!;:&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;:*x%%%xxxx+***?xxx*&#x27;&#x27;;*!                 </text>
+<text class="ascii" x="71" y="244.12" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.780s">                     ..&#x27;&#x27;!x%x++*!;:&#x27;&#x27;&#x27;;+%%%%%?*!;;:&#x27;&#x27;&#x27;;!+*::!+*                 </text>
+<text class="ascii" x="71" y="248.53" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.800s">                       *&amp;%?x%x+++!;:&#x27;:*x%??+*!;;::;:&#x27;...;!;;+?+                 </text>
+<text class="ascii" x="71" y="252.94" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.820s">                        :xxx&amp;%x?++*!;!?x?!:::;;!*?x?!:..&#x27;;!*?x*                 </text>
+<text class="ascii" x="71" y="257.36" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.840s">                          ;?%&amp;%%xx?+*??+*;::;!*?xxxx+;&#x27;.&#x27;:*?x%*                 </text>
+<text class="ascii" x="71" y="261.77" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.860s">                         :!xx&amp;&amp;&amp;&amp;%xx???+!!;;;!***!!!:&#x27;...:*x%x&#x27;                 </text>
+<text class="ascii" x="71" y="266.18" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.880s">                         !&amp;&amp;x&amp;&amp;&amp;&amp;&amp;&amp;%xx?*!!;;;:&#x27;&#x27;&#x27;&#x27;&#x27;..   .!?%&amp;+                  </text>
+<text class="ascii" x="71" y="270.60" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.900s">                          :x%%&amp;&amp;#&amp;&amp;&amp;%%?**!;:&#x27;&#x27;&#x27;&#x27;&#x27;:::&#x27;. .:?%&amp;&amp;;                  </text>
+<text class="ascii" x="71" y="275.01" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.920s">                           !?!%####&amp;&amp;%%??*!!;;!!!*+*!!!*?%%&amp;?                   </text>
+<text class="ascii" x="71" y="279.42" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.940s">                            ;:+&amp;#######&amp;%%%x?xx??x%%%xx%%&amp;&amp;%;                   </text>
+<text class="ascii" x="71" y="283.84" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.960s">                             &#x27;;?#######@###&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;##&amp;&amp;&amp;&amp;&amp;&amp;;                    </text>
+<text class="ascii" x="71" y="288.25" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:0.980s">                             .&#x27;!x#@###@@@@########@@@###&amp;#%.                    </text>
+<text class="ascii" x="71" y="292.66" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:1.000s">                             .:;!+%&amp;&amp;&amp;################&amp;&amp;&amp;%!.                    </text>
+<text class="ascii" x="71" y="297.08" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:1.020s">                             .::;!*?x%%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%%%!&#x27;.                    </text>
+<text class="ascii" x="71" y="301.49" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:1.040s">                             ::::;!*+??x%%%%%%%%%%%%%%x?!&#x27;&#x27;..                   </text>
+<text class="ascii" x="71" y="305.90" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:1.060s">                             :::::;!!**+++???????????+!:&#x27;&#x27;.&#x27;:                   </text>
+<text class="ascii" x="71" y="310.32" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:1.080s">                             &#x27;;&#x27;:::;;;!!!********!!!;:&#x27;&#x27;&#x27;&#x27;.:!                   </text>
+<text class="ascii" x="71" y="314.73" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:1.100s">                              ::&#x27;:::::;;;;!;;;;;;;;::&#x27;&#x27;&#x27;&#x27;&#x27;.&#x27;!.                  </text>
+<text class="ascii" x="71" y="319.14" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:1.120s">                              .::&#x27;&#x27;::::::::::::;::::&#x27;&#x27;&#x27;&#x27;&#x27;..&#x27;!&#x27;                  </text>
+<text class="ascii" x="71" y="323.56" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:1.140s">                               &#x27;:&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;:::::::::&#x27;&#x27;&#x27;&#x27;....&#x27;;:                  </text>
+<text class="ascii" x="71" y="327.97" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:1.160s">                                &#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.......&#x27;:&#x27;                  </text>
+<text class="ascii" x="71" y="332.38" font-size="5.80" textLength="278" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="animation-delay:1.180s">                                  ..........................&#x27;                   </text>
+<text x="27" y="380" fill="#1F2328" font-size="28" font-weight="bold">Giuseph Giangareli</text>
+<text x="27" y="405" fill="#6C63FF" font-size="13">──────────────────────────</text>
+<g class="line" style="animation-delay:0.30s">
+<text x="27" y="437" fill="#5B52D6" font-size="13">Role</text>
+<text x="27" y="455" fill="#24292F" font-size="15">Full Stack / Mobile Developer</text>
+</g>
+<g class="line" style="animation-delay:0.38s">
+<text x="27" y="480" fill="#5B52D6" font-size="13">Study</text>
+<text x="27" y="498" fill="#24292F" font-size="15">Computer Engineering student</text>
+</g>
+<g class="line" style="animation-delay:0.46s">
+<text x="27" y="523" fill="#5B52D6" font-size="13">Based</text>
+<text x="27" y="541" fill="#24292F" font-size="15">Sinop, MT, Brazil</text>
+</g>
+<g class="line" style="animation-delay:0.54s">
+<text x="27" y="566" fill="#5B52D6" font-size="13">Work</text>
+<text x="27" y="584" fill="#24292F" font-size="15">Founder @ Neurelix</text>
+</g>
+<g class="line" style="animation-delay:0.62s">
+<text x="27" y="609" fill="#5B52D6" font-size="13">Mobile</text>
+<text x="27" y="627" fill="#24292F" font-size="15">React Native / Expo / Dart</text>
+</g>
+<g class="line" style="animation-delay:0.70s">
+<text x="27" y="652" fill="#5B52D6" font-size="13">Backend</text>
+<text x="27" y="670" fill="#24292F" font-size="15">Node.js / Python / Firebase</text>
+</g>
+<g class="line" style="animation-delay:0.78s">
+<text x="27" y="695" fill="#5B52D6" font-size="13">Hardware</text>
+<text x="27" y="713" fill="#24292F" font-size="15">Arduino / ESP32 / C++</text>
+</g>
+<g class="line" style="animation-delay:0.86s">
+<text x="27" y="738" fill="#5B52D6" font-size="13">Focus</text>
+<text x="27" y="756" fill="#24292F" font-size="15">AI / IoT / automation</text>
+</g>
+<text x="27" y="797" fill="#57606A" font-size="11">From applications to connected devices.</text>
+</svg>

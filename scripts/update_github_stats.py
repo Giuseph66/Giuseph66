@@ -14,6 +14,7 @@ import json
 import os
 from urllib.request import Request, urlopen
 
+from i18n import LANGS, localized, number
 from update_profile_art import ROOT, USERNAME, frame
 
 DATA = ROOT / "data/github-stats.json"
@@ -27,6 +28,14 @@ COLORS = {
     "Lua": "#000080", "Ruby": "#701516", "Jupyter Notebook": "#DA5B0B",
 }
 OTHER = "#8B949E"
+TEXT = {
+    "en": {"rows": ("commits", "pull requests", "repositories", "stars earned", "followers", "languages"),
+           "top": "top languages", "by": "by repository", "other": "Other", "title": "{}'s GitHub stats",
+           "summary": "{} commits, {} pull requests, {} repositories, {} stars, {} followers. Top languages by repository: "},
+    "pt": {"rows": ("commits", "pull requests", "repositórios", "estrelas", "seguidores", "linguagens"),
+           "top": "principais linguagens", "by": "por repositório", "other": "Outras", "title": "Estatísticas do GitHub de {}",
+           "summary": "{} commits, {} pull requests, {} repositórios, {} estrelas, {} seguidores. Principais linguagens por repositório: "},
+}
 
 
 def api(path):
@@ -64,19 +73,19 @@ def fetch():
     }
 
 
-def top_languages(languages):
+def top_languages(languages, lang="en"):
     ranked = list(languages.items())
     if len(ranked) > TOP_LANGUAGES:
-        ranked = ranked[:TOP_LANGUAGES - 1] + [("Other", sum(count for _, count in ranked[TOP_LANGUAGES - 1:]))]
+        ranked = ranked[:TOP_LANGUAGES - 1] + [(TEXT[lang]["other"], sum(count for _, count in ranked[TOP_LANGUAGES - 1:]))]
     total = sum(count for _, count in ranked)
     return [(name, count / total, COLORS.get(name, OTHER)) for name, count in ranked]
 
 
-def language_block(langs, x, y, width, legend_columns, row_gap, column_gap):
+def language_block(langs, x, y, width, legend_columns, row_gap, column_gap, lang="en"):
     parts = [
         f'<g class="line" style="animation-delay:.2s">',
-        f'<text x="{x}" y="{y}" fill="#D2D8E3" font-size="13">top languages</text>',
-        f'<text x="{x + width}" y="{y}" text-anchor="end" fill="#9BA6B8" font-size="11">by repository</text>',
+        f'<text x="{x}" y="{y}" fill="#D2D8E3" font-size="13">{TEXT[lang]["top"]}</text>',
+        f'<text x="{x + width}" y="{y}" text-anchor="end" fill="#9BA6B8" font-size="11">{TEXT[lang]["by"]}</text>',
         "</g>",
         f'<clipPath id="bar"><rect x="{x}" y="{y + 16}" width="{width}" height="10" rx="5" /></clipPath>',
         f'<rect x="{x}" y="{y + 16}" width="{width}" height="10" rx="5" fill="#30363D" />',
@@ -101,16 +110,11 @@ def language_block(langs, x, y, width, legend_columns, row_gap, column_gap):
     return parts
 
 
-def render(data, mobile=False, light=False):
-    rows = [
-        ("commits", f"{data['commits']:,}"),
-        ("pull requests", f"{data['pull_requests']:,}"),
-        ("repositories", f"{data['repositories']:,}"),
-        ("stars earned", f"{data['stars']:,}"),
-        ("followers", f"{data['followers']:,}"),
-        ("languages", f"{len(data['languages']):,}"),
-    ]
-    langs = top_languages(data["languages"])
+def render(data, mobile=False, light=False, lang="en"):
+    t = TEXT[lang]
+    values = (data["commits"], data["pull_requests"], data["repositories"], data["stars"], data["followers"], len(data["languages"]))
+    rows = [(label, number(value, lang)) for label, value in zip(t["rows"], values)]
+    langs = top_languages(data["languages"], lang)
     width, height = (420, 424) if mobile else (860, 252)
     parts = []
     for index, (label, value) in enumerate(rows):
@@ -121,16 +125,13 @@ def render(data, mobile=False, light=False):
         parts.append("</g>")
     if mobile:
         parts.append(f'<path d="M1 232H{width - 1}" stroke="#30363D" />')
-        parts += language_block(langs, 27, 262, width - 54, 2, 26, (width - 54) / 2 + 12)
+        parts += language_block(langs, 27, 262, width - 54, 2, 26, (width - 54) / 2 + 12, lang)
     else:
         parts.append('<path d="M300 66V230" stroke="#30363D" />')
-        parts += language_block(langs, 330, 84, 503, 2, 28, 262)
-    summary = (
-        f"{data['commits']:,} commits, {data['pull_requests']} pull requests, {data['repositories']} repositories, "
-        f"{data['stars']} stars, {data['followers']} followers. Top languages by repository: "
-        + ", ".join(f"{name} {share:.0%}" for name, share, _ in langs) + "."
-    )
-    return frame(width, height, "gh stats --languages", f"{USERNAME}'s GitHub stats", summary, parts, light)
+        parts += language_block(langs, 330, 84, 503, 2, 28, 262, lang)
+    summary = t["summary"].format(*(number(value, lang) for value in values[:5])) + ", ".join(
+        f"{name} {share:.0%}" for name, share, _ in langs) + "."
+    return frame(width, height, "gh stats --languages", t["title"].format(USERNAME), summary, parts, light)
 
 
 def main():
@@ -140,13 +141,15 @@ def main():
     data = json.loads(DATA.read_text(encoding="utf-8")) if args.cached else fetch()
     # Render everything before replacing any committed output.
     outputs = {}
-    for mobile in (False, True):
-        for light in (False, True):
-            name = "github-stats" + ("-mobile" if mobile else "") + ("-light" if light else "") + ".svg"
-            outputs[name] = render(data, mobile, light)
+    for lang in LANGS:
+        for mobile in (False, True):
+            for light in (False, True):
+                name = "github-stats" + ("-mobile" if mobile else "") + ("-light" if light else "") + ".svg"
+                outputs[localized(ROOT / "assets" / name, lang)] = render(data, mobile, light, lang)
     DATA.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
-    for name, svg in outputs.items():
-        (ROOT / "assets" / name).write_text(svg, encoding="utf-8")
+    for path, svg in outputs.items():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(svg, encoding="utf-8")
     print(f"Updated GitHub stats: {data['commits']} commits, {data['repositories']} repositories")
 
 

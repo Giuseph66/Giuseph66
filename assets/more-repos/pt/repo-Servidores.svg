@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="28" viewBox="0 0 860 28" role="img" aria-labelledby="title desc">
+<title id="title">Servidores</title>
+<desc id="desc">configuração e gestão de servidores (JavaScript)</desc>
+<style>
+text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; }
+.line { animation: print-line .4s both; }
+.grow { animation: grow .7s cubic-bezier(.2, .7, .3, 1) both; transform-box: fill-box; transform-origin: left center; }
+@keyframes print-line { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@media (prefers-reduced-motion: reduce) { .line, .grow { animation: none; } }
+</style>
+<rect width="860" height="28" fill="#0D1117" /><path d="M.5 0V28M859.5 0V28" stroke="#30363D" /><g class="line" style="animation-delay:0.750s"><text x="27" y="18.3" fill="#434B5A" font-size="12" xml:space="preserve">│   ├── </text><text x="84.8" y="18.3" fill="#A8A4FF" font-size="12">Servidores</text><text x="258.0" y="18.3" font-size="12"><tspan fill="#D2D8E3">configuração e gestão de servidores</tspan><tspan fill="#9BA6B8"> · JavaScript</tspan></text></g>
+</svg>

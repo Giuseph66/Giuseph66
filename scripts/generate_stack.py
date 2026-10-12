@@ -12,12 +12,18 @@ import re
 import unicodedata
 from urllib.request import Request, urlopen
 
+from i18n import LANGS, localized
 from update_profile_art import ROOT, frame
 
 DATA = ROOT / "data/stack.json"
 CACHE = ROOT / "data/stack-icons.json"
 CDN = "https://cdn.jsdelivr.net/npm/simple-icons@16.34.0"
 CHAR = 7.22  # DejaVu Sans Mono advance at 12px
+# Portuguese names for group keys and chip labels; anything missing stays as in data/stack.json.
+PT = {
+    "ai-in-products": "ia-em-produtos", "games": "jogos", "tools": "ferramentas",
+    "On-device LLMs (GGUF)": "LLMs locais (GGUF)", "WhatsApp bots": "Bots de WhatsApp",
+}
 
 
 def fetch(url):
@@ -74,19 +80,21 @@ def chip(x, y, label, icon, color):
     )
 
 
-def render(groups, icons, mobile=False, light=False):
+def render(groups, icons, mobile=False, light=False, lang="en"):
+    word = (lambda text: PT.get(text, text)) if lang == "pt" else (lambda text: text)
     width = 420 if mobile else 860
     start, right = (27, width - 27) if mobile else (170, width - 27)
     y, parts = 62, []
     for index, (key, items) in enumerate(groups.items()):
         parts.append(f'<g class="line" style="animation-delay:{.1 + index * .08:.2f}s">')
         if mobile:
-            parts.append(f'<text x="27" y="{y + 12}" fill="#A8A4FF" font-size="13">{key}:</text>')
+            parts.append(f'<text x="27" y="{y + 12}" fill="#A8A4FF" font-size="13">{word(key)}:</text>')
             y += 22
         else:
-            parts.append(f'<text x="27" y="{y + 18.5}" fill="#A8A4FF" font-size="13">{key}:</text>')
+            parts.append(f'<text x="27" y="{y + 18.5}" fill="#A8A4FF" font-size="13">{word(key)}:</text>')
         x = start
         for label, slug, *fallback in items:
+            label = word(label)
             icon = icons[slug] if slug else None
             color = readable(icon["hex"] if icon else fallback[0], light)
             size = 42 + len(label) * CHAR
@@ -97,17 +105,20 @@ def render(groups, icons, mobile=False, light=False):
             x += size + 8
         parts.append("</g>")
         y += 36 + (6 if mobile else 10)
-    labels = "; ".join(f"{key}: " + ", ".join(item[0] for item in items) for key, items in groups.items())
+    labels = "; ".join(f"{word(key)}: " + ", ".join(word(item[0]) for item in items) for key, items in groups.items())
     return frame(width, y + 8, "cat ~/.config/stack.yml", "Tech stack", labels, parts, light)
 
 
 def main():
     groups = json.loads(DATA.read_text(encoding="utf-8"))
     icons = load_icons(item[1] for items in groups.values() for item in items if item[1])
-    for mobile in (False, True):
-        for light in (False, True):
-            name = "tech-stack" + ("-mobile" if mobile else "") + ("-light" if light else "") + ".svg"
-            (ROOT / "assets" / name).write_text(render(groups, icons, mobile, light), encoding="utf-8")
+    for lang in LANGS:
+        for mobile in (False, True):
+            for light in (False, True):
+                name = "tech-stack" + ("-mobile" if mobile else "") + ("-light" if light else "") + ".svg"
+                path = localized(ROOT / "assets" / name, lang)
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(render(groups, icons, mobile, light, lang), encoding="utf-8")
     print(f"Rendered {sum(len(items) for items in groups.values())} technologies")
 
 

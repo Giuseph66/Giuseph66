@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="84" viewBox="0 0 860 84" role="img" aria-labelledby="title desc">
+<title id="title">Mais repositórios</title>
+<desc id="desc">tree ~/mais-repos</desc>
+<style>
+text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; }
+.line { animation: print-line .4s both; }
+.grow { animation: grow .7s cubic-bezier(.2, .7, .3, 1) both; transform-box: fill-box; transform-origin: left center; }
+@keyframes print-line { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@media (prefers-reduced-motion: reduce) { .line, .grow { animation: none; } }
+</style>
+<path d="M.5 84V14.5A14 14 0 0 1 14.5 .5H845.5A14 14 0 0 1 859.5 14.5V84" fill="#FFFFFF" stroke="#D0D7DE" /><path d="M1 43H859" stroke="#D0D7DE" /><circle cx="23" cy="23" r="4" fill="#6C63FF" /><circle cx="39" cy="23" r="4" fill="#D0D7DE" /><circle cx="55" cy="23" r="4" fill="#D0D7DE" /><text x="78" y="28" fill="#57606A" font-size="12">giuseph66@github ~ $ tree ~/mais-repos</text><g class="line"><text x="27" y="74" fill="#1F2328" font-size="12" font-weight="bold">~/mais-repos</text></g>
+</svg>

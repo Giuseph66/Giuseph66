@@ -16,6 +16,8 @@ from pathlib import Path
 import re
 from urllib.request import Request, urlopen
 
+from i18n import LANGS, MONTHS_PT, READMES, WEEKDAYS_PT, localized, number, plural
+
 ROOT = Path(__file__).resolve().parents[1]
 USERNAME = "Giuseph66"
 FIRST_YEAR = 2023  # account created 2023-09-07
@@ -129,40 +131,67 @@ def stats(days):
     }
 
 
-def short(day, year=True):
+TEXT = {
+    "en": {
+        "no_streak": "no streak yet", "last_on": "last on {}", "since": "since {}", "none": "no contributions yet",
+        "contributions": "contributions", "current": "current streak", "longest": "longest streak",
+        "day": ("day", "days"), "contribution": ("contribution", "contributions"),
+        "best_day": "best day", "best_value": "{} on {}", "in_year": "in {}", "most_active": "most active",
+        "summary": "{total} contributions {since}; current streak {current}; longest streak {longest}; "
+                   "best day {best} contributions on {day}. Generated from GitHub's public contribution calendar.",
+        "title": "{}'s contribution stats",
+    },
+    "pt": {
+        "no_streak": "nenhuma sequência ainda", "last_on": "última em {}", "since": "desde {}", "none": "nenhuma contribuição ainda",
+        "contributions": "contribuições", "current": "sequência atual", "longest": "maior sequência",
+        "day": ("dia", "dias"), "contribution": ("contribuição", "contribuições"),
+        "best_day": "melhor dia", "best_value": "{} em {}", "in_year": "em {}", "most_active": "mais ativo",
+        "summary": "{total} contribuições {since}; sequência atual de {current}; maior sequência de {longest}; "
+                   "melhor dia com {best} contribuições em {day}. Gerado a partir do calendário público do GitHub.",
+        "title": "Estatísticas de contribuição de {}",
+    },
+}
+
+
+def short(day, year=True, lang="en"):
+    if lang == "pt":
+        return f"{day.day} {MONTHS_PT[day.month - 1]}" + (f" {day.year}" if year else "")
     return f"{day:%b} {day.day}" + (f", {day.year}" if year else "")
 
 
-def span(run):
+def month_year(day, lang="en"):
+    return f"{MONTHS_PT[day.month - 1]} {day.year}" if lang == "pt" else f"{day:%b %Y}"
+
+
+def span(run, lang="en"):
     if not run:
-        return 0, "no streak yet"
+        return 0, TEXT[lang]["no_streak"]
     start, end = run
     length = (end - start).days + 1
     if start == end:
-        return length, short(end)
-    return length, f"{short(start, start.year != end.year)} – {short(end)}"
+        return length, short(end, lang=lang)
+    return length, f"{short(start, start.year != end.year, lang)} – {short(end, lang=lang)}"
 
 
-def plural(value, unit):
-    return f"{value:,} {unit}{'' if value == 1 else 's'}"
-
-
-def render(data, mobile=False, light=False):
-    current_len, current_span = span(data["current"])
+def render(data, mobile=False, light=False, lang="en"):
+    t = TEXT[lang]
+    current_len, current_span = span(data["current"], lang)
     if not data["current"] and data["last"]:
-        current_span = f"last on {short(data['last'])}"
-    longest_len, longest_span = span(data["longest"])
-    since = f"since {data['since']:%b %Y}" if data["since"] else "no contributions yet"
+        current_span = t["last_on"].format(short(data["last"], lang=lang))
+    longest_len, longest_span = span(data["longest"], lang)
+    since = t["since"].format(month_year(data["since"], lang)) if data["since"] else t["none"]
+    days = lambda value: plural(value, *t["day"], lang)
     blocks = [
-        (f"{data['total']:,}", "contributions", since, "#F0F3F8"),
-        (plural(current_len, "day"), "current streak", current_span, "#A8A4FF"),
-        (plural(longest_len, "day"), "longest streak", longest_span, "#F0F3F8"),
+        (number(data["total"], lang), t["contributions"], since, "#F0F3F8"),
+        (days(current_len), t["current"], current_span, "#A8A4FF"),
+        (days(longest_len), t["longest"], longest_span, "#F0F3F8"),
     ]
     best_count, best_day = data["best"]
+    weekday = WEEKDAYS_PT.get(data["weekday"], data["weekday"]) if lang == "pt" else data["weekday"]
     facts = [
-        ("best day", f"{best_count} on {short(best_day)}"),
-        (f"in {data['year'][0]}", plural(data["year"][1], "contribution")),
-        ("most active", data["weekday"]),
+        (t["best_day"], t["best_value"].format(number(best_count, lang), short(best_day, lang=lang))),
+        (t["in_year"].format(data["year"][0]), plural(data["year"][1], *t["contribution"], lang)),
+        (t["most_active"], weekday),
     ]
     width, height = (420, 380) if mobile else (860, 236)
     parts = []
@@ -203,12 +232,11 @@ def render(data, mobile=False, light=False):
                 f'<tspan fill="#A8A4FF">{label}</tspan><tspan fill="#D2D8E3"> {escape(value)}</tspan></text>'
             )
             parts.append("</g>")
-    summary = (
-        f"{data['total']:,} contributions {since}; current streak {plural(current_len, 'day')}; "
-        f"longest streak {plural(longest_len, 'day')}; best day {best_count} contributions on {short(best_day)}. "
-        "Generated from GitHub's public contribution calendar."
+    summary = t["summary"].format(
+        total=number(data["total"], lang), since=since, current=days(current_len), longest=days(longest_len),
+        best=number(best_count, lang), day=short(best_day, lang=lang),
     )
-    return frame(width, height, "contributions --stats", f"{USERNAME}'s contribution stats", summary, parts, light)
+    return frame(width, height, "contributions --stats", t["title"].format(USERNAME), summary, parts, light)
 
 
 STYLE = f'''<style>
@@ -246,13 +274,13 @@ def frame(width, height, command, title, desc, parts, light=False):
     return svg_document(width, height, title, desc, body, light)
 
 
-def replace_readme_block(name, content):
-    """Rewrite README.md between <!-- name:start --> and <!-- name:end --> markers."""
-    readme = ROOT / "README.md"
+def replace_readme_block(name, content, lang="en"):
+    """Rewrite the `lang` README between <!-- name:start --> and <!-- name:end --> markers."""
+    readme = READMES[lang]
     text = readme.read_text(encoding="utf-8")
     start, end = f"<!-- {name}:start -->", f"<!-- {name}:end -->"
     if text.count(start) != 1 or text.count(end) != 1:
-        raise ValueError(f"README.md needs exactly one {start} … {end} pair")
+        raise ValueError(f"{readme.name} needs exactly one {start} … {end} pair")
     head, rest = text.split(start)
     _, tail = rest.split(end)
     readme.write_text(f"{head}{start}\n{content.strip()}\n{end}{tail}", encoding="utf-8")
@@ -261,23 +289,29 @@ def replace_readme_block(name, content):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--html", type=Path, nargs="+", help="Use saved yearly calendars instead of fetching")
+    parser.add_argument("--cached", action="store_true", help="Re-render from data/contributions.json without fetching")
     args = parser.parse_args()
-    days = fetch_days(args.html)
+    if args.cached:
+        days = json.loads((ROOT / "data/contributions.json").read_text(encoding="utf-8"))["days"]
+    else:
+        days = fetch_days(args.html)
     data = stats(days)
     # Validate and render everything before replacing any committed output.
     outputs = {}
-    for mobile in (False, True):
-        for light in (False, True):
-            name = "contrib-stats" + ("-mobile" if mobile else "") + ("-light" if light else "") + ".svg"
-            outputs[name] = render(data, mobile, light)
-    (ROOT / "assets").mkdir(exist_ok=True)
+    for lang in LANGS:
+        for mobile in (False, True):
+            for light in (False, True):
+                name = "contrib-stats" + ("-mobile" if mobile else "") + ("-light" if light else "") + ".svg"
+                outputs[localized(ROOT / "assets" / name, lang)] = render(data, mobile, light, lang)
     (ROOT / "data").mkdir(exist_ok=True)
-    rows = ",\n".join(f"    {json.dumps(day)}" for day in days)
-    (ROOT / "data/contributions.json").write_text(
-        f'{{\n  "username": "{USERNAME}",\n  "days": [\n{rows}\n  ]\n}}\n', encoding="utf-8"
-    )
-    for name, svg in outputs.items():
-        (ROOT / "assets" / name).write_text(svg, encoding="utf-8")
+    if not args.cached:
+        rows = ",\n".join(f"    {json.dumps(day)}" for day in days)
+        (ROOT / "data/contributions.json").write_text(
+            f'{{\n  "username": "{USERNAME}",\n  "days": [\n{rows}\n  ]\n}}\n', encoding="utf-8"
+        )
+    for path, svg in outputs.items():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(svg, encoding="utf-8")
     print(f"Updated {len(days)} days; {data['total']} contributions")
 
 
