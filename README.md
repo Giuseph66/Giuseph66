@@ -36,11 +36,11 @@
 
 ## About me
 
-I started programming at the end of 2022, right before I began Computer Engineering in Sinop, MT. I'm finishing the degree now, and I've written code pretty much every day since. My Linux machine counts about 12,000 hours in front of the screen since 2023, and almost all of that went into building things, not gaming.
+I've been programming since late 2022, and it quickly stopped being just a course and became what I do every day. I'm in the final stretch of a Computer Engineering degree in Sinop, MT, and since 2023 I've put roughly 12,000 hours into code. My Linux machine keeps count.
 
-I lean on AI to learn faster, which is how I got to work with so many stacks in a few years. The ones listed below are the ones I really spent time with, not everything I've touched. I've also published papers on software and hardware projects, and a few of my apps live in private repositories, so you won't see them here.
+AI is part of how I learn. It lets me go deep on a new stack in weeks instead of months, which is how this profile ranges from Flutter apps to Hyperledger Fabric to custom Marlin firmware. Along the way I've published papers on software and hardware, and a good part of my work lives in private repositories.
 
-Programming is my job today, but that's not why I do it. I like building something and seeing it work for the first time, and my favorite part is when an ESP32 or an Arduino lets the code move something in the real world.
+Coding is my job, but I'd do it anyway. What I enjoy most is the moment hardware joins in, when an ESP32 or an Arduino turns a few lines of code into something you can see and touch.
 
 ---
 
@@ -236,10 +236,10 @@ Programming is my job today, but that's not why I do it. I like building somethi
 
 ## Right now
 
-- **TraceAgro**: cattle traceability that keeps working without signal in the field
-- **Caixeiro Viajante MT**: route research across the municipalities of Mato Grosso
-- **Neurelix**: client projects and our own products
-- Finishing my Computer Engineering degree
+- **TraceAgro**: cattle traceability built to keep working offline, out in the field
+- **Caixeiro Viajante MT**: route research across the 142 municipalities of Mato Grosso
+- **Neurelix**: client work and products of our own
+- The last semesters of Computer Engineering
 
 ---
 
