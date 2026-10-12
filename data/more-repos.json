@@ -1,0 +1,56 @@
+{
+  "Apps & Web": [
+    ["Cafe_computacao", "café system for the computing community: credits and plans", "Expo"],
+    ["LabPage", "HardLab, tech-lab inventory, orders and bookings", "Spring Boot + RN"],
+    ["Visualizador-3D", "STL viewer/editor with volume, weight and cost", "React + Three.js"],
+    ["Catalago-3d", "3D-printing product catalog for a store in Sinop", "React + Node.js"],
+    ["Scan-NFC-e-", "reads Brazilian NFC-e invoices from their QR code", "Node.js + SQLite"],
+    ["neurelix-nexus-backend", "API of the Neurelix Nexus platform", "Fastify + PostgreSQL"],
+    ["Portifolio", "Galaxy Portfolio, 3D space explorer and classic mode", "JavaScript"],
+    ["Financa_familia", "family finance app", "Flutter"],
+    ["Desafio_projeto_esfera", "CNPJ lookup and management with the OpenCNPJ API", "Flutter + Node.js"],
+    ["cha_panela", "event invitations with an integrated gift list", "Next.js"],
+    ["Sala-de-desenho", "DrawTogether, real-time collaborative drawing", "Expo + Node.js"],
+    ["chat", "WhatsApp multi-device chat client", "Expo"],
+    ["Prompts_AI", "several AI features in a single mobile app", "Expo"],
+    ["_TechPsico_", "emotional diary with professional access", "Expo"],
+    ["Totari", "voice messages turned into AI-improved conversations", "TypeScript"],
+    ["send_email", "email sending through the Gmail API with Google sign-in", "Express"],
+    ["Barbearia_V2", "barbershop management", "JavaScript"],
+    ["FASTSHII", "mobile app", "Expo"]
+  ],
+  "AI & Tools": [
+    ["Bandeja_limites", "tray app tracking Codex and Claude Code usage limits", "Node.js"],
+    ["facilita_ai", "Facilita Estudo, study platform with API and worker", "NestJS + BullMQ"],
+    ["Relatorios-com-ia", "AI-assisted academic and professional reports", "Node.js"],
+    ["ERP", "modular, vertical-ready ERP design", "TypeScript"],
+    ["RPG", "RPG Companion, PWA for tabletop sessions (in planning)", "React"],
+    ["Dorman", "multi-agent digital doorman with face recognition", "Python"],
+    ["Editor-automatico", "AI-assisted video editing", "Python"],
+    ["instalador_apps_linux", "GUI to install and remove portable apps on Linux", "Python"],
+    ["Servidores", "server configuration and management", "JavaScript"],
+    ["Monitorador_chat", "chat monitoring and automation", "Python"]
+  ],
+  "Hardware & IoT": [
+    ["moto", "433 MHz RF remote for motorcycle accessories", "Arduino + C++"],
+    ["Arduino", "Arduino and ESP32 experiments, sensors to servers", "C++"],
+    ["Conversor_ascii", "ASCII art to XBM bytes for u8g2 OLED/e-paper", "Python"]
+  ],
+  "Games & 3D": [
+    ["gozaru-dono", "2D game with 2.5D depth and a written story", "Godot 4.6"],
+    ["celulas_mutaveis", "3D scene spread across several browser windows", "Three.js"],
+    ["APOC", "Neon Runner 3D, first-person endless runner", "Three.js"]
+  ],
+  "Academic": [
+    ["Trabalhos_Faculdade", "university coursework", "Python"],
+    ["estutura-de-dados", "2-3-4 tree (data structures)", "C"],
+    ["grafo", "graph algorithms", "TypeScript"],
+    ["copiladores-7-", "compilers coursework", "Java"],
+    ["TD_latex", "LaTeX papers", "TeX"],
+    ["T_2_base-de-dados", "database coursework", "Python"],
+    ["Progetos_Particulares", "early learning projects", "Python"]
+  ],
+  "Community": [
+    ["Atletica_PSICONAUTAS", "athletics club project", "JavaScript"]
+  ]
+}

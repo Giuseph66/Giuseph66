@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="28" viewBox="0 0 860 28" role="img" aria-labelledby="title desc">
+<title id="title">Monitorador_chat</title>
+<desc id="desc">chat monitoring and automation (Python)</desc>
+<style>
+text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; }
+.line { animation: print-line .4s both; }
+.grow { animation: grow .7s cubic-bezier(.2, .7, .3, 1) both; transform-box: fill-box; transform-origin: left center; }
+@keyframes print-line { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@media (prefers-reduced-motion: reduce) { .line, .grow { animation: none; } }
+</style>
+<rect width="860" height="28" fill="#FFFFFF" /><path d="M.5 0V28M859.5 0V28" stroke="#D0D7DE" /><g class="line" style="animation-delay:0.775s"><text x="27" y="18.3" fill="#D0D7DE" font-size="12" xml:space="preserve">│   └── </text><text x="84.8" y="18.3" fill="#5B52D6" font-size="12">Monitorador_chat</text><text x="258.0" y="18.3" font-size="12"><tspan fill="#24292F">chat monitoring and automation</tspan><tspan fill="#57606A"> · Python</tspan></text></g>
+</svg>

@@ -24,7 +24,7 @@ LIGHT = {
     "#0D1117": "#FFFFFF", "#30363D": "#D0D7DE",
     "#F0F3F8": "#1F2328", "#D2D8E3": "#24292F",
     "#9BA6B8": "#57606A", "#A8A4FF": "#5B52D6",
-    "#434B5A": "#D0D7DE",
+    "#434B5A": "#D0D7DE", "#161B22": "#F6F8FA",
 }
 
 
@@ -211,30 +211,51 @@ def render(data, mobile=False, light=False):
     return frame(width, height, "contributions --stats", f"{USERNAME}'s contribution stats", summary, parts, light)
 
 
-def frame(width, height, command, title, desc, parts, light=False):
-    """Terminal-window card shared by the stats SVGs; dark colours swap via LIGHT."""
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">
-<title id="title">{escape(title)}</title>
-<desc id="desc">{escape(desc)}</desc>
-<style>
+STYLE = f'''<style>
 text {{ font-family: {FONT}; }}
 .line {{ animation: print-line .4s both; }}
 .grow {{ animation: grow .7s cubic-bezier(.2, .7, .3, 1) both; transform-box: fill-box; transform-origin: left center; }}
 @keyframes print-line {{ from {{ opacity: 0; transform: translateY(5px); }} to {{ opacity: 1; transform: translateY(0); }} }}
 @keyframes grow {{ from {{ transform: scaleX(0); }} to {{ transform: scaleX(1); }} }}
 @media (prefers-reduced-motion: reduce) {{ .line, .grow {{ animation: none; }} }}
-</style>
-<rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="14" fill="#0D1117" stroke="#30363D" />
-<path d="M1 43H{width - 1}" stroke="#30363D" />
-<circle cx="23" cy="23" r="4" fill="#6C63FF" /><circle cx="39" cy="23" r="4" fill="#434B5A" /><circle cx="55" cy="23" r="4" fill="#434B5A" />
-<text x="78" y="28" fill="#9BA6B8" font-size="12">{USERNAME.lower()}@github ~ $ {escape(command)}</text>
-{chr(10).join(parts)}
+</style>'''
+
+
+def svg_document(width, height, title, desc, body, light=False):
+    """Wrap card markup in an accessible SVG; dark colours swap via LIGHT for the light theme."""
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">
+<title id="title">{escape(title)}</title>
+<desc id="desc">{escape(desc)}</desc>
+{STYLE}
+{body}
 </svg>
 '''
     if light:
         for dark, bright in LIGHT.items():
             svg = svg.replace(dark, bright)
     return svg
+
+
+def frame(width, height, command, title, desc, parts, light=False):
+    """Terminal-window card shared by the stats SVGs."""
+    body = f'''<rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="14" fill="#0D1117" stroke="#30363D" />
+<path d="M1 43H{width - 1}" stroke="#30363D" />
+<circle cx="23" cy="23" r="4" fill="#6C63FF" /><circle cx="39" cy="23" r="4" fill="#434B5A" /><circle cx="55" cy="23" r="4" fill="#434B5A" />
+<text x="78" y="28" fill="#9BA6B8" font-size="12">{USERNAME.lower()}@github ~ $ {escape(command)}</text>
+{chr(10).join(parts)}'''
+    return svg_document(width, height, title, desc, body, light)
+
+
+def replace_readme_block(name, content):
+    """Rewrite README.md between <!-- name:start --> and <!-- name:end --> markers."""
+    readme = ROOT / "README.md"
+    text = readme.read_text(encoding="utf-8")
+    start, end = f"<!-- {name}:start -->", f"<!-- {name}:end -->"
+    if text.count(start) != 1 or text.count(end) != 1:
+        raise ValueError(f"README.md needs exactly one {start} … {end} pair")
+    head, rest = text.split(start)
+    _, tail = rest.split(end)
+    readme.write_text(f"{head}{start}\n{content.strip()}\n{end}{tail}", encoding="utf-8")
 
 
 def main():
