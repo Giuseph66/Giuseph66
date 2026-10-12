@@ -36,9 +36,9 @@
 
 ## About me
 
-I've been programming since late 2022, and it quickly stopped being just a course and became what I do every day. I'm in the final stretch of a Computer Engineering degree in Sinop, MT, and since 2023 I've put roughly 12,000 hours into code. My Linux machine keeps count.
+I've been programming since late 2022, and it quickly went from a college subject to what I do every day. I'm currently finishing my Computer Engineering degree in Sinop, MT. According to my Linux machine, I've spent 12,382 hours in front of it since 2023, almost all of them writing code.
 
-AI is part of how I learn. It lets me go deep on a new stack in weeks instead of months, which is how this profile ranges from Flutter apps to Hyperledger Fabric to custom Marlin firmware. Along the way I've published papers on software and hardware, and a good part of my work lives in private repositories.
+AI is part of how I learn. It lets me go deep on a new stack in weeks instead of months, which is how this profile covers mobile apps, backends, AI agents and embedded firmware. I've also published papers involving software and hardware, and a good part of my work lives in private repositories.
 
 Coding is my job, but I'd do it anyway. What I enjoy most is the moment hardware joins in, when an ESP32 or an Arduino turns a few lines of code into something you can see and touch.
 
