@@ -31,9 +31,9 @@ ROWS = {
         ("Role", "Full Stack / Mobile Developer"),
         ("Study", "Computer Engineering student"),
         ("Based", "Sinop, MT, Brazil"),
-        ("Work", "Founder @ Neurelix"),
-        ("Mobile", "React Native / Expo / Dart"),
-        ("Backend", "Node.js / Python / Firebase"),
+        ("Work", "Software Developer @ Esfera Solar"),
+        ("Founder", "Neurelix"),
+        ("Stack", "Node.js / Flutter / React Native"),
         ("Hardware", "Arduino / ESP32 / C++"),
         ("Focus", "AI / IoT / automation"),
     ],
@@ -41,9 +41,9 @@ ROWS = {
         ("Função", "Dev Full Stack / Mobile"),
         ("Estudo", "Engenharia de Computação"),
         ("Local", "Sinop, MT, Brasil"),
-        ("Trabalho", "Fundador @ Neurelix"),
-        ("Mobile", "React Native / Expo / Dart"),
-        ("Backend", "Node.js / Python / Firebase"),
+        ("Trabalho", "Dev de Software @ Esfera Solar"),
+        ("Fundador", "Neurelix"),
+        ("Stack", "Node.js / Flutter / React Native"),
         ("Hardware", "Arduino / ESP32 / C++"),
         ("Foco", "IA / IoT / automação"),
     ],
@@ -52,13 +52,13 @@ TEXT = {
     "en": {
         "title": "Giuseph Giangareli — software, mobile, AI and hardware",
         "desc": "ASCII portrait from Giuseph's GitHub avatar. Full Stack and Mobile Developer, Computer Engineering "
-                "student, founder of Neurelix, based in Sinop, Brazil.",
+                "student, software developer at Esfera Solar, founder of Neurelix, based in Sinop, Brazil.",
         "footer": "From applications to connected devices.",
     },
     "pt": {
         "title": "Giuseph Giangareli — software, mobile, IA e hardware",
         "desc": "Retrato em ASCII a partir do avatar do GitHub do Giuseph. Dev Full Stack e Mobile, estudante de "
-                "Engenharia de Computação, fundador da Neurelix, em Sinop, Brasil.",
+                "Engenharia de Computação, dev de software na Esfera Solar, fundador da Neurelix, em Sinop, Brasil.",
         "footer": "Dos aplicativos aos dispositivos conectados.",
     },
 }

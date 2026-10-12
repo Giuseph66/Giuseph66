@@ -228,6 +228,7 @@ Coding is my job, but I'd do it anyway. What I enjoy most is the moment hardware
 
 ## Right now
 
+- **Esfera Solar**: software developer on the team, building the Node.js back end and the Flutter apps for web and mobile
 - **TraceAgro**: cattle traceability built to keep working offline, out in the field
 - **Caixeiro Viajante MT**: route research across the 142 municipalities of Mato Grosso
 - **Neurelix**: client work and products of our own

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420.000" height="776" viewBox="0.000 44 420.000 776" role="img" aria-labelledby="title desc">
 <title id="title">Giuseph Giangareli — software, mobile, IA e hardware</title>
-<desc id="desc">Retrato em ASCII a partir do avatar do GitHub do Giuseph. Dev Full Stack e Mobile, estudante de Engenharia de Computação, fundador da Neurelix, em Sinop, Brasil.</desc>
+<desc id="desc">Retrato em ASCII a partir do avatar do GitHub do Giuseph. Dev Full Stack e Mobile, estudante de Engenharia de Computação, dev de software na Esfera Solar, fundador da Neurelix, em Sinop, Brasil.</desc>
 <style>
 text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; }
 .ascii { fill: #BAC3D2; animation: type-row .45s both; }
@@ -89,15 +89,15 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 </g>
 <g class="line" style="animation-delay:0.54s">
 <text x="27" y="566" fill="#A8A4FF" font-size="13">Trabalho</text>
-<text x="27" y="584" fill="#D2D8E3" font-size="15">Fundador @ Neurelix</text>
+<text x="27" y="584" fill="#D2D8E3" font-size="15">Dev de Software @ Esfera Solar</text>
 </g>
 <g class="line" style="animation-delay:0.62s">
-<text x="27" y="609" fill="#A8A4FF" font-size="13">Mobile</text>
-<text x="27" y="627" fill="#D2D8E3" font-size="15">React Native / Expo / Dart</text>
+<text x="27" y="609" fill="#A8A4FF" font-size="13">Fundador</text>
+<text x="27" y="627" fill="#D2D8E3" font-size="15">Neurelix</text>
 </g>
 <g class="line" style="animation-delay:0.70s">
-<text x="27" y="652" fill="#A8A4FF" font-size="13">Backend</text>
-<text x="27" y="670" fill="#D2D8E3" font-size="15">Node.js / Python / Firebase</text>
+<text x="27" y="652" fill="#A8A4FF" font-size="13">Stack</text>
+<text x="27" y="670" fill="#D2D8E3" font-size="15">Node.js / Flutter / React Native</text>
 </g>
 <g class="line" style="animation-delay:0.78s">
 <text x="27" y="695" fill="#A8A4FF" font-size="13">Hardware</text>

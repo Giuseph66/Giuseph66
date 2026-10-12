@@ -228,6 +228,7 @@ Programar é meu trabalho, mas eu faria de qualquer jeito. O que eu mais curto �
 
 ## Agora
 
+- **Esfera Solar**: desenvolvedor de software no time, no back-end em Node.js e nos apps em Flutter para web e mobile
 - **TraceAgro**: rastreabilidade bovina feita para funcionar offline, lá no campo
 - **Caixeiro Viajante MT**: pesquisa de rotas entre os 142 municípios de Mato Grosso
 - **Neurelix**: projetos de clientes e produtos próprios
