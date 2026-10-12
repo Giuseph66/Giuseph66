@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="172" viewBox="0 0 420 172" role="img" aria-labelledby="title desc">
 <title id="title">Neurelix Nexus (neurelix-nexus-frontend)</title>
-<desc id="desc">One platform for projects, tasks, collaborative whiteboards and Git integration, with a Fastify + PostgreSQL API.</desc>
+<desc id="desc">Projects, tasks, collaborative whiteboards and Git integration in one place. React on top of a Fastify and PostgreSQL API.</desc>
 <style>
 text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; }
 .line { animation: print-line .4s both; }
@@ -14,8 +14,8 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 <circle cx="18" cy="18" r="3.5" fill="#6C63FF" /><circle cx="30" cy="18" r="3.5" fill="#D0D7DE" /><circle cx="42" cy="18" r="3.5" fill="#D0D7DE" />
 <text x="56" y="22" fill="#57606A" font-size="11">~/neurelix-nexus-frontend</text>
 <g class="line" style="animation-delay:.1s"><text x="20" y="64" fill="#1F2328" font-size="16" font-weight="bold">Neurelix Nexus</text></g>
-<g class="line" style="animation-delay:0.18s"><text x="20" y="90" fill="#24292F" font-size="12">One platform for projects, tasks, collaborative</text></g>
-<g class="line" style="animation-delay:0.24s"><text x="20" y="108" fill="#24292F" font-size="12">whiteboards and Git integration, with a Fastify +</text></g>
-<g class="line" style="animation-delay:0.30s"><text x="20" y="126" fill="#24292F" font-size="12">PostgreSQL API.</text></g>
+<g class="line" style="animation-delay:0.18s"><text x="20" y="90" fill="#24292F" font-size="12">Projects, tasks, collaborative whiteboards and Git</text></g>
+<g class="line" style="animation-delay:0.24s"><text x="20" y="108" fill="#24292F" font-size="12">integration in one place. React on top of a Fastify</text></g>
+<g class="line" style="animation-delay:0.30s"><text x="20" y="126" fill="#24292F" font-size="12">and PostgreSQL API.</text></g>
 <g class="line" style="animation-delay:.4s"><circle cx="25" cy="151" r="5" fill="#3178C6" /><text x="36" y="155" fill="#24292F" font-size="12">TypeScript</text><text x="400" y="155" text-anchor="end" fill="#57606A" font-size="11">React · Fastify · PostgreSQL</text></g>
 </svg>

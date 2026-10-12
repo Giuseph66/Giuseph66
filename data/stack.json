@@ -3,27 +3,21 @@
     ["React Native", "react"], ["Expo", "expo"], ["Flutter", "flutter"], ["Dart", "dart"]
   ],
   "web": [
-    ["TypeScript", "typescript"], ["JavaScript", "javascript"], ["React", "react"], ["Next.js", "nextdotjs"],
-    ["Vite", "vite"], ["Tailwind CSS", "tailwindcss"], ["Three.js", "threedotjs"], ["Electron", "electron"]
+    ["TypeScript", "typescript"], ["JavaScript", "javascript"], ["React", "react"], ["Next.js", "nextdotjs"], ["Vite", "vite"], ["Tailwind CSS", "tailwindcss"], ["Three.js", "threedotjs"], ["Electron", "electron"]
   ],
   "backend": [
-    ["Node.js", "nodedotjs"], ["NestJS", "nestjs"], ["Express", "express"], ["Fastify", "fastify"],
-    ["Python", "python"], ["PostgreSQL", "postgresql"], ["Prisma", "prisma"], ["SQLite", "sqlite"],
-    ["Redis", "redis"], ["Firebase", "firebase"], ["Supabase", "supabase"], ["Hyperledger Fabric", null, "#A8A4FF"]
+    ["Node.js", "nodedotjs"], ["NestJS", "nestjs"], ["Express", "express"], ["Fastify", "fastify"], ["Python", "python"], ["PostgreSQL", "postgresql"], ["Prisma", "prisma"], ["SQLite", "sqlite"], ["Redis", "redis"], ["Firebase", "firebase"], ["Supabase", "supabase"], ["Hyperledger Fabric", null, "#A8A4FF"]
   ],
-  "ai": [
-    ["Claude", "claude"], ["Codex", null, "#10A37F"], ["OpenAI", null, "#A8A4FF"], ["Gemini", "googlegemini"],
-    ["Ollama", "ollama"], ["Local LLMs (GGUF)", null, "#6C63FF"], ["WhatsApp bots", "whatsapp"]
+  "ai-in-products": [
+    ["OpenAI API", null, "#A8A4FF"], ["Claude API", "claude"], ["Gemini API", "googlegemini"], ["OpenRouter", "openrouter"], ["Ollama", "ollama"], ["On-device LLMs (GGUF)", null, "#6C63FF"], ["WhatsApp bots", "whatsapp"]
   ],
   "hardware": [
-    ["Arduino", "arduino"], ["ESP32", "espressif"], ["C++", "cplusplus"], ["C", "c"],
-    ["Bluetooth LE", "bluetooth"], ["Marlin", null, "#9BA6B8"]
+    ["Arduino", "arduino"], ["ESP32", "espressif"], ["C++", "cplusplus"], ["C", "c"], ["Bluetooth LE", "bluetooth"], ["Marlin", null, "#9BA6B8"]
   ],
   "games": [
     ["Godot 4", "godotengine"], ["GDScript", "godotengine"], ["Blender", "blender"]
   ],
   "tools": [
-    ["Git", "git"], ["GitHub Actions", "githubactions"], ["Docker", "docker"], ["Linux", "linux"],
-    ["Shell", "gnubash"], ["Cloudflare", "cloudflare"]
+    ["Git", "git"], ["GitHub Actions", "githubactions"], ["Docker", "docker"], ["Linux", "linux"], ["Shell", "gnubash"], ["Cloudflare", "cloudflare"]
   ]
 }

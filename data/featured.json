@@ -1,54 +1,34 @@
 {
   "AI & Automation": [
-    {"repo": "NEO_code", "title": "NeoCode", "language": "TypeScript", "stack": "VS Code OSS · Electron",
-     "description": "VS Code fork with a multi-model agent swarm: an orchestrator routes planner, coder and reviewer agents across Codex, Claude, Gemini and Qwen Code."},
-    {"repo": "server-rotate-key", "title": "Server Rotate Key", "language": "TypeScript", "stack": "NestJS · Prisma · React",
-     "description": "Multi-tenant AI gateway: one API for Ollama and ChatGPT Codex backends, with pooled key rotation, load spreading and auditing."},
-    {"repo": "temporario-ath", "title": "Artemis Bot", "language": "TypeScript", "stack": "Gemini · Express · Prisma",
-     "description": "WhatsApp sales assistant: qualifies leads, handles objections, bills through Asaas and books meetings on Google Calendar."},
-    {"repo": "NEO-assistente", "title": "Ricky", "language": "TypeScript", "stack": "Electron · Zod · Pino",
-     "description": "Local-first Linux desktop assistant with an overlay for notes, transcription and translation that works fully offline."}
+    {"repo": "NEO_code", "title": "NeoCode", "language": "TypeScript", "stack": "VS Code OSS · Electron", "description": "My VS Code fork. An orchestrator splits the work between planner, coder and reviewer agents running on Codex, Claude, Gemini and Qwen Code."},
+    {"repo": "server-rotate-key", "title": "Server Rotate Key", "language": "TypeScript", "stack": "NestJS · Prisma · React", "description": "Puts Ollama and ChatGPT Codex behind a single API, rotating pooled keys and auditing every request per tenant."},
+    {"repo": "temporario-ath", "title": "Artemis Bot", "language": "TypeScript", "stack": "Gemini · Express · Prisma", "description": "WhatsApp bot that handles a sale from start to finish. It qualifies the lead, answers objections, charges via Asaas and books the meeting."},
+    {"repo": "NEO-assistente", "title": "Ricky", "language": "TypeScript", "stack": "Electron · Zod · Pino", "description": "Linux desktop assistant with an overlay for notes, transcription and translation. Everything runs offline."}
   ],
   "Mobile & Apps": [
-    {"repo": "AgroTracer", "title": "TraceAgro", "language": "Dart", "stack": "Flutter · NestJS · Fabric",
-     "description": "Event-driven cattle traceability: offline-first field app for weighing, vaccination and genealogy, with integrity proofs on Hyperledger Fabric."},
-    {"repo": "PAP", "title": "Ponto a Ponto", "language": "TypeScript", "stack": "React Native · Firebase",
-     "description": "On-demand delivery platform with separate client and courier apps and real-time delivery offers, without dedicated servers."},
-    {"repo": "Neo-Mobile", "title": "Neo Mobile", "language": "Dart", "stack": "Flutter · Android",
-     "description": "Chat app with three providers: an offline on-device LLM (GGUF) with token streaming and a tokens/s meter, OpenAI and Gemini."},
-    {"repo": "Avaliacoes_inteligentes", "title": "Prova Inteligente", "language": "TypeScript", "stack": "Expo · Firebase",
-     "description": "Digital exams end to end: AI-generated questions, test taking, grading and reports for teachers and students."}
+    {"repo": "AgroTracer", "title": "TraceAgro", "language": "Dart", "stack": "Flutter · NestJS · Fabric", "description": "Cattle traceability for farms without signal. The app records weighing, vaccines and births offline and anchors proofs on Hyperledger Fabric."},
+    {"repo": "PAP", "title": "Ponto a Ponto", "language": "TypeScript", "stack": "React Native · Firebase", "description": "Delivery app with separate client and courier sides. Nearby couriers get offers in real time, and Firebase does the backend work."},
+    {"repo": "Neo-Mobile", "title": "Neo Mobile", "language": "Dart", "stack": "Flutter · Android", "description": "Runs a GGUF model on the phone, offline, with token streaming and a tokens/s meter. OpenAI and Gemini are there as optional providers."},
+    {"repo": "Avaliacoes_inteligentes", "title": "Prova Inteligente", "language": "TypeScript", "stack": "Expo · Firebase", "description": "Exam app for teachers. AI writes the questions, students answer on their phones, and grading and reports come out on their own."}
   ],
   "Hardware & IoT": [
-    {"repo": "ender-potente", "title": "NeoCNC", "language": "C", "stack": "Marlin · GD32",
-     "description": "A Creality Ender-3 Neo turned into a PCB milling machine: custom Marlin build for its GD32 board, spindle control via M3/M5."},
-    {"repo": "relogio-blue", "title": "Relógio Blue", "language": "C++", "stack": "ESP32 · Flutter · BLE",
-     "description": "DIY smartwatch on an ESP32 with a round GC9A01 display, paired with a Flutter companion app over Bluetooth Low Energy."},
-    {"repo": "Cell-Esp", "title": "ESP Link", "language": "Dart", "stack": "Flutter · ESP32",
-     "description": "Flutter ↔ ESP32 link with USB serial as the main channel and automatic BLE failover when the cable drops. No cloud, no account."},
-    {"repo": "Portas", "title": "Portas", "language": "TypeScript", "stack": "ESP32 · Expo · WebSockets",
-     "description": "IoT door access control: ESP32 firmware, a WebSocket backend and a React Native app to open and monitor doors."}
+    {"repo": "ender-potente", "title": "NeoCNC", "language": "C", "stack": "Marlin · GD32", "description": "I turned a Creality Ender-3 Neo into a PCB milling machine, with a custom Marlin build for its GD32 board and the spindle on M3/M5."},
+    {"repo": "relogio-blue", "title": "Relógio Blue", "language": "C++", "stack": "ESP32 · Flutter · BLE", "description": "DIY smartwatch built on an ESP32 with a round GC9A01 display. It talks to a Flutter companion app over Bluetooth Low Energy."},
+    {"repo": "Cell-Esp", "title": "ESP Link", "language": "Dart", "stack": "Flutter · ESP32", "description": "Flutter app that talks to an ESP32 over USB serial and switches to BLE by itself when the cable is pulled. No cloud, no account."},
+    {"repo": "Portas", "title": "Portas", "language": "TypeScript", "stack": "ESP32 · Expo · WebSockets", "description": "Door access control with ESP32 firmware, a WebSocket backend and a React Native app to open and watch the doors."}
   ],
   "Web, Data & Research": [
-    {"repo": "caixeiro-viajante-MT", "title": "Caixeiro Viajante MT", "language": "Python", "stack": "PostgreSQL · React",
-     "description": "Route-planning research across the 142 municipal seats of Mato Grosso with one to three agents, on IBGE and OpenStreetMap data."},
-    {"repo": "analize_sites_Egov", "title": "Accessibility Evaluator", "language": "TypeScript", "stack": "QualWeb · axe-core",
-     "description": "Local web accessibility lab: runs QualWeb (ACT rules, WCAG techniques) in a controlled Chromium and returns a navigable report."},
-    {"repo": "Painel_observatorio", "title": "E-participação MT", "language": "JavaScript", "stack": "SVG · IBGE data",
-     "description": "Dependency-free dashboard of municipal e-participation in Mato Grosso: synced SVG heat map and bar chart over PNTP 2025 data."},
-    {"repo": "QR_code_biblioteca", "title": "PIX Flow", "language": "TypeScript", "stack": "React · Supabase",
-     "description": "Instant PIX checkout with a customer-facing QR screen that shows ads and videos between payments."}
+    {"repo": "caixeiro-viajante-MT", "title": "Caixeiro Viajante MT", "language": "Python", "stack": "PostgreSQL · React", "description": "Research on road routes across the 142 municipal seats of Mato Grosso with one to three agents, built on IBGE and OpenStreetMap data."},
+    {"repo": "analize_sites_Egov", "title": "Accessibility Evaluator", "language": "TypeScript", "stack": "QualWeb · axe-core", "description": "Local accessibility lab. Give it any URL, localhost included, and it runs QualWeb in a controlled Chromium and shows the full report."},
+    {"repo": "Painel_observatorio", "title": "E-participação MT", "language": "JavaScript", "stack": "SVG · IBGE data", "description": "No-dependency dashboard of e-participation in the municipalities of Mato Grosso, with a heat map and a bar chart that move together."},
+    {"repo": "QR_code_biblioteca", "title": "PIX Flow", "language": "TypeScript", "stack": "React · Supabase", "description": "PIX checkout for shops and events. The customer screen shows the QR code, and ads or videos while nobody is paying."}
   ],
   "Games & 3D": [
-    {"repo": "Pixel", "title": "PIXEL", "language": "GDScript", "stack": "Godot 4.6",
-     "description": "Single-screen precision platformer with zero imported assets: sprites, sounds and the bitmap font are all generated in code."},
-    {"repo": "Pixel-3D", "title": "Pixel Forge", "language": "GDScript", "stack": "Godot 4.6 · Jolt",
-     "description": "Collect pixels on a generated island and build working objects from them, block by block: spring pads, thrusters, lamps."}
+    {"repo": "Pixel", "title": "PIXEL", "language": "GDScript", "stack": "Godot 4.6", "description": "Single-screen platformer with no imported assets at all. Every sprite, sound and letter of the font is generated in code."},
+    {"repo": "Pixel-3D", "title": "Pixel Forge", "language": "GDScript", "stack": "Godot 4.6 · Jolt", "description": "Collect pixels on a generated island, then use a drafting board to build working objects out of them, like spring pads and thrusters."}
   ],
   "Neurelix": [
-    {"repo": "neurelix-nexus-frontend", "title": "Neurelix Nexus", "language": "TypeScript", "stack": "React · Fastify · PostgreSQL",
-     "description": "One platform for projects, tasks, collaborative whiteboards and Git integration, with a Fastify + PostgreSQL API."},
-    {"repo": "neurelix-website", "title": "Neurelix", "language": "TypeScript", "stack": "Next.js · Tailwind CSS",
-     "description": "Corporate website of Neurelix, a studio for custom full-stack software with AI and automation."}
+    {"repo": "neurelix-nexus-frontend", "title": "Neurelix Nexus", "language": "TypeScript", "stack": "React · Fastify · PostgreSQL", "description": "Projects, tasks, collaborative whiteboards and Git integration in one place. React on top of a Fastify and PostgreSQL API."},
+    {"repo": "neurelix-website", "title": "Neurelix", "language": "TypeScript", "stack": "Next.js · Tailwind CSS", "description": "Website of Neurelix, where we build custom software with AI and automation for our clients."}
   ]
 }

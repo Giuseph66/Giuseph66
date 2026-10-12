@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="172" viewBox="0 0 420 172" role="img" aria-labelledby="title desc">
 <title id="title">Relógio Blue (relogio-blue)</title>
-<desc id="desc">DIY smartwatch on an ESP32 with a round GC9A01 display, paired with a Flutter companion app over Bluetooth Low Energy.</desc>
+<desc id="desc">DIY smartwatch built on an ESP32 with a round GC9A01 display. It talks to a Flutter companion app over Bluetooth Low Energy.</desc>
 <style>
 text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; }
 .line { animation: print-line .4s both; }
@@ -14,8 +14,8 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 <circle cx="18" cy="18" r="3.5" fill="#6C63FF" /><circle cx="30" cy="18" r="3.5" fill="#434B5A" /><circle cx="42" cy="18" r="3.5" fill="#434B5A" />
 <text x="56" y="22" fill="#9BA6B8" font-size="11">~/relogio-blue</text>
 <g class="line" style="animation-delay:.1s"><text x="20" y="64" fill="#F0F3F8" font-size="16" font-weight="bold">Relógio Blue</text></g>
-<g class="line" style="animation-delay:0.18s"><text x="20" y="90" fill="#D2D8E3" font-size="12">DIY smartwatch on an ESP32 with a round GC9A01</text></g>
-<g class="line" style="animation-delay:0.24s"><text x="20" y="108" fill="#D2D8E3" font-size="12">display, paired with a Flutter companion app over</text></g>
+<g class="line" style="animation-delay:0.18s"><text x="20" y="90" fill="#D2D8E3" font-size="12">DIY smartwatch built on an ESP32 with a round GC9A01</text></g>
+<g class="line" style="animation-delay:0.24s"><text x="20" y="108" fill="#D2D8E3" font-size="12">display. It talks to a Flutter companion app over</text></g>
 <g class="line" style="animation-delay:0.30s"><text x="20" y="126" fill="#D2D8E3" font-size="12">Bluetooth Low Energy.</text></g>
 <g class="line" style="animation-delay:.4s"><circle cx="25" cy="151" r="5" fill="#F34B7D" /><text x="36" y="155" fill="#D2D8E3" font-size="12">C++</text><text x="400" y="155" text-anchor="end" fill="#9BA6B8" font-size="11">ESP32 · Flutter · BLE</text></g>
 </svg>

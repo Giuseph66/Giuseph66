@@ -76,7 +76,7 @@ def chip(x, y, label, icon, color):
 
 def render(groups, icons, mobile=False, light=False):
     width = 420 if mobile else 860
-    start, right = (27, width - 27) if mobile else (150, width - 27)
+    start, right = (27, width - 27) if mobile else (170, width - 27)
     y, parts = 62, []
     for index, (key, items) in enumerate(groups.items()):
         parts.append(f'<g class="line" style="animation-delay:{.1 + index * .08:.2f}s">')

@@ -36,15 +36,11 @@
 
 ## About me
 
-Developer focused on building solutions that leave the whiteboard and reach the end user. Currently pursuing a **Computer Engineering** degree while working across multiple layers of the tech stack:
+I started programming at the end of 2022, right before I began Computer Engineering in Sinop, MT. I'm finishing the degree now, and I've written code pretty much every day since. My Linux machine counts about 12,000 hours in front of the screen since 2023, and almost all of that went into building things, not gaming.
 
-- **Mobile** — React Native/Expo apps with refined UX, Firebase integration, camera, location, notifications and local databases
-- **Artificial Intelligence** — automations, assistants, report generation and AI-powered evaluations
-- **Web & Digital Ecosystems** — platforms, portfolios and brands built end-to-end
-- **Hardware & IoT** — projects with Arduino, ESP32, NFC, wearables and physical automation
-- **Productivity & Tooling** — utilities, CLIs, servers and scripts that solve real problems
+I lean on AI to learn faster, which is how I got to work with so many stacks in a few years. The ones listed below are the ones I really spent time with, not everything I've touched. I've also published papers on software and hardware projects, and a few of my apps live in private repositories, so you won't see them here.
 
-> My style: I learn by building. Every repo here is a step toward a real product, prototype or purposeful experiment.
+Programming is my job today, but that's not why I do it. I like building something and seeing it work for the first time, and my favorite part is when an ESP32 or an Arduino lets the code move something in the real world.
 
 ---
 
@@ -54,13 +50,13 @@ Developer focused on building solutions that leave the whiteboard and reach the 
   <a href="https://github.com/Giuseph66?tab=repositories#gh-dark-mode-only">
     <picture>
       <source media="(max-width: 600px)" srcset="./assets/tech-stack-mobile.svg" />
-      <img src="./assets/tech-stack.svg" width="860" alt="Tech stack. Mobile: React Native, Expo, Flutter, Dart. Web: TypeScript, JavaScript, React, Next.js, Vite, Tailwind CSS, Three.js, Electron. Backend: Node.js, NestJS, Express, Fastify, Python, PostgreSQL, Prisma, SQLite, Redis, Firebase, Supabase, Hyperledger Fabric. AI: Claude, Codex, OpenAI, Gemini, Ollama, local LLMs, WhatsApp bots. Hardware: Arduino, ESP32, C++, C, Bluetooth LE, Marlin. Games: Godot 4, GDScript, Blender. Tools: Git, GitHub Actions, Docker, Linux, Shell, Cloudflare." />
+      <img src="./assets/tech-stack.svg" width="860" alt="Tech stack. Mobile: React Native, Expo, Flutter, Dart. Web: TypeScript, JavaScript, React, Next.js, Vite, Tailwind CSS, Three.js, Electron. Backend: Node.js, NestJS, Express, Fastify, Python, PostgreSQL, Prisma, SQLite, Redis, Firebase, Supabase, Hyperledger Fabric. AI in products: OpenAI API, Claude API, Gemini API, OpenRouter, Ollama, on-device LLMs, WhatsApp bots. Hardware: Arduino, ESP32, C++, C, Bluetooth LE, Marlin. Games: Godot 4, GDScript, Blender. Tools: Git, GitHub Actions, Docker, Linux, Shell, Cloudflare." />
     </picture>
   </a>
   <a href="https://github.com/Giuseph66?tab=repositories#gh-light-mode-only">
     <picture>
       <source media="(max-width: 600px)" srcset="./assets/tech-stack-mobile-light.svg" />
-      <img src="./assets/tech-stack-light.svg" width="860" alt="Tech stack. Mobile: React Native, Expo, Flutter, Dart. Web: TypeScript, JavaScript, React, Next.js, Vite, Tailwind CSS, Three.js, Electron. Backend: Node.js, NestJS, Express, Fastify, Python, PostgreSQL, Prisma, SQLite, Redis, Firebase, Supabase, Hyperledger Fabric. AI: Claude, Codex, OpenAI, Gemini, Ollama, local LLMs, WhatsApp bots. Hardware: Arduino, ESP32, C++, C, Bluetooth LE, Marlin. Games: Godot 4, GDScript, Blender. Tools: Git, GitHub Actions, Docker, Linux, Shell, Cloudflare." />
+      <img src="./assets/tech-stack-light.svg" width="860" alt="Tech stack. Mobile: React Native, Expo, Flutter, Dart. Web: TypeScript, JavaScript, React, Next.js, Vite, Tailwind CSS, Three.js, Electron. Backend: Node.js, NestJS, Express, Fastify, Python, PostgreSQL, Prisma, SQLite, Redis, Firebase, Supabase, Hyperledger Fabric. AI in products: OpenAI API, Claude API, Gemini API, OpenRouter, Ollama, on-device LLMs, WhatsApp bots. Hardware: Arduino, ESP32, C++, C, Bluetooth LE, Marlin. Games: Godot 4, GDScript, Blender. Tools: Git, GitHub Actions, Docker, Linux, Shell, Cloudflare." />
     </picture>
   </a>
 </p>
@@ -73,71 +69,71 @@ Developer focused on building solutions that leave the whiteboard and reach the 
 ### AI & Automation
 
 <p align="center">
-  <a href="https://github.com/Giuseph66/NEO_code#gh-dark-mode-only"><img src="./assets/featured/NEO_code.svg" width="410" alt="NeoCode — VS Code fork with a multi-model agent swarm: an orchestrator routes planner, coder and reviewer agents across Codex, Claude, Gemini and Qwen Code." /></a>
-  <a href="https://github.com/Giuseph66/NEO_code#gh-light-mode-only"><img src="./assets/featured/NEO_code-light.svg" width="410" alt="NeoCode — VS Code fork with a multi-model agent swarm: an orchestrator routes planner, coder and reviewer agents across Codex, Claude, Gemini and Qwen Code." /></a>
-  <a href="https://github.com/Giuseph66/server-rotate-key#gh-dark-mode-only"><img src="./assets/featured/server-rotate-key.svg" width="410" alt="Server Rotate Key — Multi-tenant AI gateway: one API for Ollama and ChatGPT Codex backends, with pooled key rotation, load spreading and auditing." /></a>
-  <a href="https://github.com/Giuseph66/server-rotate-key#gh-light-mode-only"><img src="./assets/featured/server-rotate-key-light.svg" width="410" alt="Server Rotate Key — Multi-tenant AI gateway: one API for Ollama and ChatGPT Codex backends, with pooled key rotation, load spreading and auditing." /></a>
-  <a href="https://github.com/Giuseph66/temporario-ath#gh-dark-mode-only"><img src="./assets/featured/temporario-ath.svg" width="410" alt="Artemis Bot — WhatsApp sales assistant: qualifies leads, handles objections, bills through Asaas and books meetings on Google Calendar." /></a>
-  <a href="https://github.com/Giuseph66/temporario-ath#gh-light-mode-only"><img src="./assets/featured/temporario-ath-light.svg" width="410" alt="Artemis Bot — WhatsApp sales assistant: qualifies leads, handles objections, bills through Asaas and books meetings on Google Calendar." /></a>
-  <a href="https://github.com/Giuseph66/NEO-assistente#gh-dark-mode-only"><img src="./assets/featured/NEO-assistente.svg" width="410" alt="Ricky — Local-first Linux desktop assistant with an overlay for notes, transcription and translation that works fully offline." /></a>
-  <a href="https://github.com/Giuseph66/NEO-assistente#gh-light-mode-only"><img src="./assets/featured/NEO-assistente-light.svg" width="410" alt="Ricky — Local-first Linux desktop assistant with an overlay for notes, transcription and translation that works fully offline." /></a>
+  <a href="https://github.com/Giuseph66/NEO_code#gh-dark-mode-only"><img src="./assets/featured/NEO_code.svg" width="410" alt="NeoCode — My VS Code fork. An orchestrator splits the work between planner, coder and reviewer agents running on Codex, Claude, Gemini and Qwen Code." /></a>
+  <a href="https://github.com/Giuseph66/NEO_code#gh-light-mode-only"><img src="./assets/featured/NEO_code-light.svg" width="410" alt="NeoCode — My VS Code fork. An orchestrator splits the work between planner, coder and reviewer agents running on Codex, Claude, Gemini and Qwen Code." /></a>
+  <a href="https://github.com/Giuseph66/server-rotate-key#gh-dark-mode-only"><img src="./assets/featured/server-rotate-key.svg" width="410" alt="Server Rotate Key — Puts Ollama and ChatGPT Codex behind a single API, rotating pooled keys and auditing every request per tenant." /></a>
+  <a href="https://github.com/Giuseph66/server-rotate-key#gh-light-mode-only"><img src="./assets/featured/server-rotate-key-light.svg" width="410" alt="Server Rotate Key — Puts Ollama and ChatGPT Codex behind a single API, rotating pooled keys and auditing every request per tenant." /></a>
+  <a href="https://github.com/Giuseph66/temporario-ath#gh-dark-mode-only"><img src="./assets/featured/temporario-ath.svg" width="410" alt="Artemis Bot — WhatsApp bot that handles a sale from start to finish. It qualifies the lead, answers objections, charges via Asaas and books the meeting." /></a>
+  <a href="https://github.com/Giuseph66/temporario-ath#gh-light-mode-only"><img src="./assets/featured/temporario-ath-light.svg" width="410" alt="Artemis Bot — WhatsApp bot that handles a sale from start to finish. It qualifies the lead, answers objections, charges via Asaas and books the meeting." /></a>
+  <a href="https://github.com/Giuseph66/NEO-assistente#gh-dark-mode-only"><img src="./assets/featured/NEO-assistente.svg" width="410" alt="Ricky — Linux desktop assistant with an overlay for notes, transcription and translation. Everything runs offline." /></a>
+  <a href="https://github.com/Giuseph66/NEO-assistente#gh-light-mode-only"><img src="./assets/featured/NEO-assistente-light.svg" width="410" alt="Ricky — Linux desktop assistant with an overlay for notes, transcription and translation. Everything runs offline." /></a>
 </p>
 
 ### Mobile & Apps
 
 <p align="center">
-  <a href="https://github.com/Giuseph66/AgroTracer#gh-dark-mode-only"><img src="./assets/featured/AgroTracer.svg" width="410" alt="TraceAgro — Event-driven cattle traceability: offline-first field app for weighing, vaccination and genealogy, with integrity proofs on Hyperledger Fabric." /></a>
-  <a href="https://github.com/Giuseph66/AgroTracer#gh-light-mode-only"><img src="./assets/featured/AgroTracer-light.svg" width="410" alt="TraceAgro — Event-driven cattle traceability: offline-first field app for weighing, vaccination and genealogy, with integrity proofs on Hyperledger Fabric." /></a>
-  <a href="https://github.com/Giuseph66/PAP#gh-dark-mode-only"><img src="./assets/featured/PAP.svg" width="410" alt="Ponto a Ponto — On-demand delivery platform with separate client and courier apps and real-time delivery offers, without dedicated servers." /></a>
-  <a href="https://github.com/Giuseph66/PAP#gh-light-mode-only"><img src="./assets/featured/PAP-light.svg" width="410" alt="Ponto a Ponto — On-demand delivery platform with separate client and courier apps and real-time delivery offers, without dedicated servers." /></a>
-  <a href="https://github.com/Giuseph66/Neo-Mobile#gh-dark-mode-only"><img src="./assets/featured/Neo-Mobile.svg" width="410" alt="Neo Mobile — Chat app with three providers: an offline on-device LLM (GGUF) with token streaming and a tokens/s meter, OpenAI and Gemini." /></a>
-  <a href="https://github.com/Giuseph66/Neo-Mobile#gh-light-mode-only"><img src="./assets/featured/Neo-Mobile-light.svg" width="410" alt="Neo Mobile — Chat app with three providers: an offline on-device LLM (GGUF) with token streaming and a tokens/s meter, OpenAI and Gemini." /></a>
-  <a href="https://github.com/Giuseph66/Avaliacoes_inteligentes#gh-dark-mode-only"><img src="./assets/featured/Avaliacoes_inteligentes.svg" width="410" alt="Prova Inteligente — Digital exams end to end: AI-generated questions, test taking, grading and reports for teachers and students." /></a>
-  <a href="https://github.com/Giuseph66/Avaliacoes_inteligentes#gh-light-mode-only"><img src="./assets/featured/Avaliacoes_inteligentes-light.svg" width="410" alt="Prova Inteligente — Digital exams end to end: AI-generated questions, test taking, grading and reports for teachers and students." /></a>
+  <a href="https://github.com/Giuseph66/AgroTracer#gh-dark-mode-only"><img src="./assets/featured/AgroTracer.svg" width="410" alt="TraceAgro — Cattle traceability for farms without signal. The app records weighing, vaccines and births offline and anchors proofs on Hyperledger Fabric." /></a>
+  <a href="https://github.com/Giuseph66/AgroTracer#gh-light-mode-only"><img src="./assets/featured/AgroTracer-light.svg" width="410" alt="TraceAgro — Cattle traceability for farms without signal. The app records weighing, vaccines and births offline and anchors proofs on Hyperledger Fabric." /></a>
+  <a href="https://github.com/Giuseph66/PAP#gh-dark-mode-only"><img src="./assets/featured/PAP.svg" width="410" alt="Ponto a Ponto — Delivery app with separate client and courier sides. Nearby couriers get offers in real time, and Firebase does the backend work." /></a>
+  <a href="https://github.com/Giuseph66/PAP#gh-light-mode-only"><img src="./assets/featured/PAP-light.svg" width="410" alt="Ponto a Ponto — Delivery app with separate client and courier sides. Nearby couriers get offers in real time, and Firebase does the backend work." /></a>
+  <a href="https://github.com/Giuseph66/Neo-Mobile#gh-dark-mode-only"><img src="./assets/featured/Neo-Mobile.svg" width="410" alt="Neo Mobile — Runs a GGUF model on the phone, offline, with token streaming and a tokens/s meter. OpenAI and Gemini are there as optional providers." /></a>
+  <a href="https://github.com/Giuseph66/Neo-Mobile#gh-light-mode-only"><img src="./assets/featured/Neo-Mobile-light.svg" width="410" alt="Neo Mobile — Runs a GGUF model on the phone, offline, with token streaming and a tokens/s meter. OpenAI and Gemini are there as optional providers." /></a>
+  <a href="https://github.com/Giuseph66/Avaliacoes_inteligentes#gh-dark-mode-only"><img src="./assets/featured/Avaliacoes_inteligentes.svg" width="410" alt="Prova Inteligente — Exam app for teachers. AI writes the questions, students answer on their phones, and grading and reports come out on their own." /></a>
+  <a href="https://github.com/Giuseph66/Avaliacoes_inteligentes#gh-light-mode-only"><img src="./assets/featured/Avaliacoes_inteligentes-light.svg" width="410" alt="Prova Inteligente — Exam app for teachers. AI writes the questions, students answer on their phones, and grading and reports come out on their own." /></a>
 </p>
 
 ### Hardware & IoT
 
 <p align="center">
-  <a href="https://github.com/Giuseph66/ender-potente#gh-dark-mode-only"><img src="./assets/featured/ender-potente.svg" width="410" alt="NeoCNC — A Creality Ender-3 Neo turned into a PCB milling machine: custom Marlin build for its GD32 board, spindle control via M3/M5." /></a>
-  <a href="https://github.com/Giuseph66/ender-potente#gh-light-mode-only"><img src="./assets/featured/ender-potente-light.svg" width="410" alt="NeoCNC — A Creality Ender-3 Neo turned into a PCB milling machine: custom Marlin build for its GD32 board, spindle control via M3/M5." /></a>
-  <a href="https://github.com/Giuseph66/relogio-blue#gh-dark-mode-only"><img src="./assets/featured/relogio-blue.svg" width="410" alt="Relógio Blue — DIY smartwatch on an ESP32 with a round GC9A01 display, paired with a Flutter companion app over Bluetooth Low Energy." /></a>
-  <a href="https://github.com/Giuseph66/relogio-blue#gh-light-mode-only"><img src="./assets/featured/relogio-blue-light.svg" width="410" alt="Relógio Blue — DIY smartwatch on an ESP32 with a round GC9A01 display, paired with a Flutter companion app over Bluetooth Low Energy." /></a>
-  <a href="https://github.com/Giuseph66/Cell-Esp#gh-dark-mode-only"><img src="./assets/featured/Cell-Esp.svg" width="410" alt="ESP Link — Flutter ↔ ESP32 link with USB serial as the main channel and automatic BLE failover when the cable drops. No cloud, no account." /></a>
-  <a href="https://github.com/Giuseph66/Cell-Esp#gh-light-mode-only"><img src="./assets/featured/Cell-Esp-light.svg" width="410" alt="ESP Link — Flutter ↔ ESP32 link with USB serial as the main channel and automatic BLE failover when the cable drops. No cloud, no account." /></a>
-  <a href="https://github.com/Giuseph66/Portas#gh-dark-mode-only"><img src="./assets/featured/Portas.svg" width="410" alt="Portas — IoT door access control: ESP32 firmware, a WebSocket backend and a React Native app to open and monitor doors." /></a>
-  <a href="https://github.com/Giuseph66/Portas#gh-light-mode-only"><img src="./assets/featured/Portas-light.svg" width="410" alt="Portas — IoT door access control: ESP32 firmware, a WebSocket backend and a React Native app to open and monitor doors." /></a>
+  <a href="https://github.com/Giuseph66/ender-potente#gh-dark-mode-only"><img src="./assets/featured/ender-potente.svg" width="410" alt="NeoCNC — I turned a Creality Ender-3 Neo into a PCB milling machine, with a custom Marlin build for its GD32 board and the spindle on M3/M5." /></a>
+  <a href="https://github.com/Giuseph66/ender-potente#gh-light-mode-only"><img src="./assets/featured/ender-potente-light.svg" width="410" alt="NeoCNC — I turned a Creality Ender-3 Neo into a PCB milling machine, with a custom Marlin build for its GD32 board and the spindle on M3/M5." /></a>
+  <a href="https://github.com/Giuseph66/relogio-blue#gh-dark-mode-only"><img src="./assets/featured/relogio-blue.svg" width="410" alt="Relógio Blue — DIY smartwatch built on an ESP32 with a round GC9A01 display. It talks to a Flutter companion app over Bluetooth Low Energy." /></a>
+  <a href="https://github.com/Giuseph66/relogio-blue#gh-light-mode-only"><img src="./assets/featured/relogio-blue-light.svg" width="410" alt="Relógio Blue — DIY smartwatch built on an ESP32 with a round GC9A01 display. It talks to a Flutter companion app over Bluetooth Low Energy." /></a>
+  <a href="https://github.com/Giuseph66/Cell-Esp#gh-dark-mode-only"><img src="./assets/featured/Cell-Esp.svg" width="410" alt="ESP Link — Flutter app that talks to an ESP32 over USB serial and switches to BLE by itself when the cable is pulled. No cloud, no account." /></a>
+  <a href="https://github.com/Giuseph66/Cell-Esp#gh-light-mode-only"><img src="./assets/featured/Cell-Esp-light.svg" width="410" alt="ESP Link — Flutter app that talks to an ESP32 over USB serial and switches to BLE by itself when the cable is pulled. No cloud, no account." /></a>
+  <a href="https://github.com/Giuseph66/Portas#gh-dark-mode-only"><img src="./assets/featured/Portas.svg" width="410" alt="Portas — Door access control with ESP32 firmware, a WebSocket backend and a React Native app to open and watch the doors." /></a>
+  <a href="https://github.com/Giuseph66/Portas#gh-light-mode-only"><img src="./assets/featured/Portas-light.svg" width="410" alt="Portas — Door access control with ESP32 firmware, a WebSocket backend and a React Native app to open and watch the doors." /></a>
 </p>
 
 ### Web, Data & Research
 
 <p align="center">
-  <a href="https://github.com/Giuseph66/caixeiro-viajante-MT#gh-dark-mode-only"><img src="./assets/featured/caixeiro-viajante-MT.svg" width="410" alt="Caixeiro Viajante MT — Route-planning research across the 142 municipal seats of Mato Grosso with one to three agents, on IBGE and OpenStreetMap data." /></a>
-  <a href="https://github.com/Giuseph66/caixeiro-viajante-MT#gh-light-mode-only"><img src="./assets/featured/caixeiro-viajante-MT-light.svg" width="410" alt="Caixeiro Viajante MT — Route-planning research across the 142 municipal seats of Mato Grosso with one to three agents, on IBGE and OpenStreetMap data." /></a>
-  <a href="https://github.com/Giuseph66/analize_sites_Egov#gh-dark-mode-only"><img src="./assets/featured/analize_sites_Egov.svg" width="410" alt="Accessibility Evaluator — Local web accessibility lab: runs QualWeb (ACT rules, WCAG techniques) in a controlled Chromium and returns a navigable report." /></a>
-  <a href="https://github.com/Giuseph66/analize_sites_Egov#gh-light-mode-only"><img src="./assets/featured/analize_sites_Egov-light.svg" width="410" alt="Accessibility Evaluator — Local web accessibility lab: runs QualWeb (ACT rules, WCAG techniques) in a controlled Chromium and returns a navigable report." /></a>
-  <a href="https://github.com/Giuseph66/Painel_observatorio#gh-dark-mode-only"><img src="./assets/featured/Painel_observatorio.svg" width="410" alt="E-participação MT — Dependency-free dashboard of municipal e-participation in Mato Grosso: synced SVG heat map and bar chart over PNTP 2025 data." /></a>
-  <a href="https://github.com/Giuseph66/Painel_observatorio#gh-light-mode-only"><img src="./assets/featured/Painel_observatorio-light.svg" width="410" alt="E-participação MT — Dependency-free dashboard of municipal e-participation in Mato Grosso: synced SVG heat map and bar chart over PNTP 2025 data." /></a>
-  <a href="https://github.com/Giuseph66/QR_code_biblioteca#gh-dark-mode-only"><img src="./assets/featured/QR_code_biblioteca.svg" width="410" alt="PIX Flow — Instant PIX checkout with a customer-facing QR screen that shows ads and videos between payments." /></a>
-  <a href="https://github.com/Giuseph66/QR_code_biblioteca#gh-light-mode-only"><img src="./assets/featured/QR_code_biblioteca-light.svg" width="410" alt="PIX Flow — Instant PIX checkout with a customer-facing QR screen that shows ads and videos between payments." /></a>
+  <a href="https://github.com/Giuseph66/caixeiro-viajante-MT#gh-dark-mode-only"><img src="./assets/featured/caixeiro-viajante-MT.svg" width="410" alt="Caixeiro Viajante MT — Research on road routes across the 142 municipal seats of Mato Grosso with one to three agents, built on IBGE and OpenStreetMap data." /></a>
+  <a href="https://github.com/Giuseph66/caixeiro-viajante-MT#gh-light-mode-only"><img src="./assets/featured/caixeiro-viajante-MT-light.svg" width="410" alt="Caixeiro Viajante MT — Research on road routes across the 142 municipal seats of Mato Grosso with one to three agents, built on IBGE and OpenStreetMap data." /></a>
+  <a href="https://github.com/Giuseph66/analize_sites_Egov#gh-dark-mode-only"><img src="./assets/featured/analize_sites_Egov.svg" width="410" alt="Accessibility Evaluator — Local accessibility lab. Give it any URL, localhost included, and it runs QualWeb in a controlled Chromium and shows the full report." /></a>
+  <a href="https://github.com/Giuseph66/analize_sites_Egov#gh-light-mode-only"><img src="./assets/featured/analize_sites_Egov-light.svg" width="410" alt="Accessibility Evaluator — Local accessibility lab. Give it any URL, localhost included, and it runs QualWeb in a controlled Chromium and shows the full report." /></a>
+  <a href="https://github.com/Giuseph66/Painel_observatorio#gh-dark-mode-only"><img src="./assets/featured/Painel_observatorio.svg" width="410" alt="E-participação MT — No-dependency dashboard of e-participation in the municipalities of Mato Grosso, with a heat map and a bar chart that move together." /></a>
+  <a href="https://github.com/Giuseph66/Painel_observatorio#gh-light-mode-only"><img src="./assets/featured/Painel_observatorio-light.svg" width="410" alt="E-participação MT — No-dependency dashboard of e-participation in the municipalities of Mato Grosso, with a heat map and a bar chart that move together." /></a>
+  <a href="https://github.com/Giuseph66/QR_code_biblioteca#gh-dark-mode-only"><img src="./assets/featured/QR_code_biblioteca.svg" width="410" alt="PIX Flow — PIX checkout for shops and events. The customer screen shows the QR code, and ads or videos while nobody is paying." /></a>
+  <a href="https://github.com/Giuseph66/QR_code_biblioteca#gh-light-mode-only"><img src="./assets/featured/QR_code_biblioteca-light.svg" width="410" alt="PIX Flow — PIX checkout for shops and events. The customer screen shows the QR code, and ads or videos while nobody is paying." /></a>
 </p>
 
 ### Games & 3D
 
 <p align="center">
-  <a href="https://github.com/Giuseph66/Pixel#gh-dark-mode-only"><img src="./assets/featured/Pixel.svg" width="410" alt="PIXEL — Single-screen precision platformer with zero imported assets: sprites, sounds and the bitmap font are all generated in code." /></a>
-  <a href="https://github.com/Giuseph66/Pixel#gh-light-mode-only"><img src="./assets/featured/Pixel-light.svg" width="410" alt="PIXEL — Single-screen precision platformer with zero imported assets: sprites, sounds and the bitmap font are all generated in code." /></a>
-  <a href="https://github.com/Giuseph66/Pixel-3D#gh-dark-mode-only"><img src="./assets/featured/Pixel-3D.svg" width="410" alt="Pixel Forge — Collect pixels on a generated island and build working objects from them, block by block: spring pads, thrusters, lamps." /></a>
-  <a href="https://github.com/Giuseph66/Pixel-3D#gh-light-mode-only"><img src="./assets/featured/Pixel-3D-light.svg" width="410" alt="Pixel Forge — Collect pixels on a generated island and build working objects from them, block by block: spring pads, thrusters, lamps." /></a>
+  <a href="https://github.com/Giuseph66/Pixel#gh-dark-mode-only"><img src="./assets/featured/Pixel.svg" width="410" alt="PIXEL — Single-screen platformer with no imported assets at all. Every sprite, sound and letter of the font is generated in code." /></a>
+  <a href="https://github.com/Giuseph66/Pixel#gh-light-mode-only"><img src="./assets/featured/Pixel-light.svg" width="410" alt="PIXEL — Single-screen platformer with no imported assets at all. Every sprite, sound and letter of the font is generated in code." /></a>
+  <a href="https://github.com/Giuseph66/Pixel-3D#gh-dark-mode-only"><img src="./assets/featured/Pixel-3D.svg" width="410" alt="Pixel Forge — Collect pixels on a generated island, then use a drafting board to build working objects out of them, like spring pads and thrusters." /></a>
+  <a href="https://github.com/Giuseph66/Pixel-3D#gh-light-mode-only"><img src="./assets/featured/Pixel-3D-light.svg" width="410" alt="Pixel Forge — Collect pixels on a generated island, then use a drafting board to build working objects out of them, like spring pads and thrusters." /></a>
 </p>
 
 ### Neurelix
 
 <p align="center">
-  <a href="https://github.com/Giuseph66/neurelix-nexus-frontend#gh-dark-mode-only"><img src="./assets/featured/neurelix-nexus-frontend.svg" width="410" alt="Neurelix Nexus — One platform for projects, tasks, collaborative whiteboards and Git integration, with a Fastify + PostgreSQL API." /></a>
-  <a href="https://github.com/Giuseph66/neurelix-nexus-frontend#gh-light-mode-only"><img src="./assets/featured/neurelix-nexus-frontend-light.svg" width="410" alt="Neurelix Nexus — One platform for projects, tasks, collaborative whiteboards and Git integration, with a Fastify + PostgreSQL API." /></a>
-  <a href="https://github.com/Giuseph66/neurelix-website#gh-dark-mode-only"><img src="./assets/featured/neurelix-website.svg" width="410" alt="Neurelix — Corporate website of Neurelix, a studio for custom full-stack software with AI and automation." /></a>
-  <a href="https://github.com/Giuseph66/neurelix-website#gh-light-mode-only"><img src="./assets/featured/neurelix-website-light.svg" width="410" alt="Neurelix — Corporate website of Neurelix, a studio for custom full-stack software with AI and automation." /></a>
+  <a href="https://github.com/Giuseph66/neurelix-nexus-frontend#gh-dark-mode-only"><img src="./assets/featured/neurelix-nexus-frontend.svg" width="410" alt="Neurelix Nexus — Projects, tasks, collaborative whiteboards and Git integration in one place. React on top of a Fastify and PostgreSQL API." /></a>
+  <a href="https://github.com/Giuseph66/neurelix-nexus-frontend#gh-light-mode-only"><img src="./assets/featured/neurelix-nexus-frontend-light.svg" width="410" alt="Neurelix Nexus — Projects, tasks, collaborative whiteboards and Git integration in one place. React on top of a Fastify and PostgreSQL API." /></a>
+  <a href="https://github.com/Giuseph66/neurelix-website#gh-dark-mode-only"><img src="./assets/featured/neurelix-website.svg" width="410" alt="Neurelix — Website of Neurelix, where we build custom software with AI and automation for our clients." /></a>
+  <a href="https://github.com/Giuseph66/neurelix-website#gh-light-mode-only"><img src="./assets/featured/neurelix-website-light.svg" width="410" alt="Neurelix — Website of Neurelix, where we build custom software with AI and automation for our clients." /></a>
 </p>
 <!-- featured:end -->
 
@@ -238,13 +234,12 @@ Developer focused on building solutions that leave the whiteboard and reach the 
 
 ---
 
-## Currently focused on
+## Right now
 
-- Consolidating the **Neurelix** ecosystem as a real, scalable product
-- Deepening mobile solutions with more complete and polished experiences
-- Applying AI to practical, everyday products
-- Bridging software, automation and hardware in projects with tangible impact
-- Growing as a Computer Engineering student while shipping real-world projects
+- **TraceAgro**: cattle traceability that keeps working without signal in the field
+- **Caixeiro Viajante MT**: route research across the municipalities of Mato Grosso
+- **Neurelix**: client projects and our own products
+- Finishing my Computer Engineering degree
 
 ---
 
@@ -255,10 +250,4 @@ Developer focused on building solutions that leave the whiteboard and reach the 
   📧 <a href="mailto:giusephgangareli@gmail.com">giusephgangareli@gmail.com</a> &nbsp;|&nbsp;
   💼 <a href="https://www.linkedin.com/in/giuseph-giangareli-1bb910272">LinkedIn</a> &nbsp;|&nbsp;
   💬 <a href="https://wa.me/5566999086599">WhatsApp</a>
-</p>
-
----
-
-<p align="center">
-  <em>"Technology that leaves the idea stage and becomes something real — app, system, automation or hardware."</em>
 </p>
