@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="424" viewBox="0 0 420 424" role="img" aria-labelledby="title desc">
 <title id="title">Giuseph66&#x27;s GitHub stats</title>
-<desc id="desc">686 commits, 10 pull requests, 80 repositories, 2 stars, 4 followers. Top languages by repository: TypeScript 33%, Python 19%, JavaScript 15%, Dart 6%, HTML 6%, GDScript 6%, C++ 4%, Other 10%.</desc>
+<desc id="desc">688 commits, 10 pull requests, 81 repositories, 2 stars, 4 followers. Top languages by repository: TypeScript 32%, Python 19%, JavaScript 15%, Dart 6%, HTML 6%, GDScript 6%, C++ 4%, Other 11%.</desc>
 <style>
 text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; }
 .line { animation: print-line .4s both; }
@@ -15,7 +15,7 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 <text x="78" y="28" fill="#9BA6B8" font-size="12">giuseph66@github ~ $ gh stats --languages</text>
 <g class="line" style="animation-delay:0.10s">
 <text x="27" y="80" fill="#A8A4FF" font-size="13">commits</text>
-<text x="180" y="80" fill="#F0F3F8" font-size="13" font-weight="bold">686</text>
+<text x="180" y="80" fill="#F0F3F8" font-size="13" font-weight="bold">688</text>
 </g>
 <g class="line" style="animation-delay:0.16s">
 <text x="27" y="106" fill="#A8A4FF" font-size="13">pull requests</text>
@@ -23,7 +23,7 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 </g>
 <g class="line" style="animation-delay:0.22s">
 <text x="27" y="132" fill="#A8A4FF" font-size="13">repositories</text>
-<text x="180" y="132" fill="#F0F3F8" font-size="13" font-weight="bold">80</text>
+<text x="180" y="132" fill="#F0F3F8" font-size="13" font-weight="bold">81</text>
 </g>
 <g class="line" style="animation-delay:0.28s">
 <text x="27" y="158" fill="#A8A4FF" font-size="13">stars earned</text>
@@ -45,19 +45,19 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 <clipPath id="bar"><rect x="27" y="278" width="366" height="10" rx="5" /></clipPath>
 <rect x="27" y="278" width="366" height="10" rx="5" fill="#30363D" />
 <g clip-path="url(#bar)"><g class="grow" style="animation-delay:.3s">
-<rect x="27.00" y="278" width="118.46" height="10" fill="#3178C6" />
-<rect x="147.46" y="278" width="67.49" height="10" fill="#3572A5" />
-<rect x="216.95" y="278" width="53.59" height="10" fill="#F1E05A" />
-<rect x="272.54" y="278" width="21.16" height="10" fill="#00B4AB" />
-<rect x="295.71" y="278" width="21.16" height="10" fill="#E34C26" />
-<rect x="318.87" y="278" width="21.16" height="10" fill="#355570" />
-<rect x="342.04" y="278" width="11.90" height="10" fill="#F34B7D" />
-<rect x="355.94" y="278" width="37.06" height="10" fill="#8B949E" />
+<rect x="27.00" y="278" width="116.95" height="10" fill="#3178C6" />
+<rect x="145.95" y="278" width="66.62" height="10" fill="#3572A5" />
+<rect x="214.57" y="278" width="52.90" height="10" fill="#F1E05A" />
+<rect x="269.48" y="278" width="20.88" height="10" fill="#00B4AB" />
+<rect x="292.35" y="278" width="20.88" height="10" fill="#E34C26" />
+<rect x="315.23" y="278" width="20.88" height="10" fill="#355570" />
+<rect x="338.10" y="278" width="11.72" height="10" fill="#F34B7D" />
+<rect x="351.83" y="278" width="41.18" height="10" fill="#8B949E" />
 </g></g>
 <g class="line" style="animation-delay:0.45s">
 <circle cx="32.0" cy="314" r="5" fill="#3178C6" />
 <text x="45.0" y="318" fill="#D2D8E3" font-size="12">TypeScript</text>
-<text x="198.0" y="318" text-anchor="end" fill="#9BA6B8" font-size="12">33%</text>
+<text x="198.0" y="318" text-anchor="end" fill="#9BA6B8" font-size="12">32%</text>
 </g>
 <g class="line" style="animation-delay:0.50s">
 <circle cx="32.0" cy="340" r="5" fill="#3572A5" />
@@ -92,6 +92,6 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 <g class="line" style="animation-delay:0.80s">
 <circle cx="227.0" cy="392" r="5" fill="#8B949E" />
 <text x="240.0" y="396" fill="#D2D8E3" font-size="12">Other</text>
-<text x="393.0" y="396" text-anchor="end" fill="#9BA6B8" font-size="12">10%</text>
+<text x="393.0" y="396" text-anchor="end" fill="#9BA6B8" font-size="12">11%</text>
 </g>
 </svg>
