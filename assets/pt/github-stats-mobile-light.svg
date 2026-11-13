@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="424" viewBox="0 0 420 424" role="img" aria-labelledby="title desc">
 <title id="title">Estatísticas do GitHub de Giuseph66</title>
-<desc id="desc">692 commits, 10 pull requests, 81 repositórios, 2 estrelas, 4 seguidores. Principais linguagens por repositório: TypeScript 32%, Python 19%, JavaScript 15%, Dart 6%, HTML 6%, GDScript 6%, C++ 4%, Outras 11%.</desc>
+<desc id="desc">695 commits, 10 pull requests, 82 repositórios, 2 estrelas, 4 seguidores. Principais linguagens por repositório: TypeScript 32%, Python 19%, JavaScript 15%, Dart 6%, HTML 6%, GDScript 6%, C++ 4%, Outras 12%.</desc>
 <style>
 text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; }
 .line { animation: print-line .4s both; }
@@ -15,7 +15,7 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 <text x="78" y="28" fill="#57606A" font-size="12">giuseph66@github ~ $ gh stats --languages</text>
 <g class="line" style="animation-delay:0.10s">
 <text x="27" y="80" fill="#5B52D6" font-size="13">commits</text>
-<text x="180" y="80" fill="#1F2328" font-size="13" font-weight="bold">692</text>
+<text x="180" y="80" fill="#1F2328" font-size="13" font-weight="bold">695</text>
 </g>
 <g class="line" style="animation-delay:0.16s">
 <text x="27" y="106" fill="#5B52D6" font-size="13">pull requests</text>
@@ -23,7 +23,7 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 </g>
 <g class="line" style="animation-delay:0.22s">
 <text x="27" y="132" fill="#5B52D6" font-size="13">repositórios</text>
-<text x="180" y="132" fill="#1F2328" font-size="13" font-weight="bold">81</text>
+<text x="180" y="132" fill="#1F2328" font-size="13" font-weight="bold">82</text>
 </g>
 <g class="line" style="animation-delay:0.28s">
 <text x="27" y="158" fill="#5B52D6" font-size="13">estrelas</text>
@@ -35,7 +35,7 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 </g>
 <g class="line" style="animation-delay:0.40s">
 <text x="27" y="210" fill="#5B52D6" font-size="13">linguagens</text>
-<text x="180" y="210" fill="#1F2328" font-size="13" font-weight="bold">14</text>
+<text x="180" y="210" fill="#1F2328" font-size="13" font-weight="bold">15</text>
 </g>
 <path d="M1 232H419" stroke="#D0D7DE" />
 <g class="line" style="animation-delay:.2s">
@@ -45,14 +45,14 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 <clipPath id="bar"><rect x="27" y="278" width="366" height="10" rx="5" /></clipPath>
 <rect x="27" y="278" width="366" height="10" rx="5" fill="#D0D7DE" />
 <g clip-path="url(#bar)"><g class="grow" style="animation-delay:.3s">
-<rect x="27.00" y="278" width="116.95" height="10" fill="#3178C6" />
-<rect x="145.95" y="278" width="66.62" height="10" fill="#3572A5" />
-<rect x="214.57" y="278" width="52.90" height="10" fill="#F1E05A" />
-<rect x="269.48" y="278" width="20.88" height="10" fill="#00B4AB" />
-<rect x="292.35" y="278" width="20.88" height="10" fill="#E34C26" />
-<rect x="315.23" y="278" width="20.88" height="10" fill="#355570" />
-<rect x="338.10" y="278" width="11.72" height="10" fill="#F34B7D" />
-<rect x="351.83" y="278" width="41.18" height="10" fill="#8B949E" />
+<rect x="27.00" y="278" width="115.48" height="10" fill="#3178C6" />
+<rect x="144.48" y="278" width="65.78" height="10" fill="#3572A5" />
+<rect x="212.26" y="278" width="52.22" height="10" fill="#F1E05A" />
+<rect x="266.48" y="278" width="20.59" height="10" fill="#00B4AB" />
+<rect x="289.07" y="278" width="20.59" height="10" fill="#E34C26" />
+<rect x="311.67" y="278" width="20.59" height="10" fill="#355570" />
+<rect x="334.26" y="278" width="11.56" height="10" fill="#F34B7D" />
+<rect x="347.81" y="278" width="45.19" height="10" fill="#8B949E" />
 </g></g>
 <g class="line" style="animation-delay:0.45s">
 <circle cx="32.0" cy="314" r="5" fill="#3178C6" />
@@ -92,6 +92,6 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 <g class="line" style="animation-delay:0.80s">
 <circle cx="227.0" cy="392" r="5" fill="#8B949E" />
 <text x="240.0" y="396" fill="#24292F" font-size="12">Outras</text>
-<text x="393.0" y="396" text-anchor="end" fill="#57606A" font-size="12">11%</text>
+<text x="393.0" y="396" text-anchor="end" fill="#57606A" font-size="12">12%</text>
 </g>
 </svg>
