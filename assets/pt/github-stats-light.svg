@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="252" viewBox="0 0 860 252" role="img" aria-labelledby="title desc">
 <title id="title">Estatísticas do GitHub de Giuseph66</title>
-<desc id="desc">757 commits, 12 pull requests, 85 repositórios, 2 estrelas, 4 seguidores. Principais linguagens por repositório: TypeScript 32%, Python 18%, JavaScript 14%, GDScript 7%, Dart 6%, HTML 6%, C++ 4%, Outras 13%.</desc>
+<desc id="desc">757 commits, 12 pull requests, 86 repositórios, 2 estrelas, 4 seguidores. Principais linguagens por repositório: TypeScript 32%, Python 18%, JavaScript 14%, GDScript 7%, Dart 6%, HTML 6%, C++ 4%, Outras 14%.</desc>
 <style>
 text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; }
 .line { animation: print-line .4s both; }
@@ -23,7 +23,7 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 </g>
 <g class="line" style="animation-delay:0.22s">
 <text x="27" y="142" fill="#5B52D6" font-size="13">repositórios</text>
-<text x="160" y="142" fill="#1F2328" font-size="13" font-weight="bold">85</text>
+<text x="160" y="142" fill="#1F2328" font-size="13" font-weight="bold">86</text>
 </g>
 <g class="line" style="animation-delay:0.28s">
 <text x="27" y="171" fill="#5B52D6" font-size="13">estrelas</text>
@@ -35,7 +35,7 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 </g>
 <g class="line" style="animation-delay:0.40s">
 <text x="27" y="229" fill="#5B52D6" font-size="13">linguagens</text>
-<text x="160" y="229" fill="#1F2328" font-size="13" font-weight="bold">15</text>
+<text x="160" y="229" fill="#1F2328" font-size="13" font-weight="bold">16</text>
 </g>
 <path d="M300 66V230" stroke="#D0D7DE" />
 <g class="line" style="animation-delay:.2s">
@@ -45,14 +45,14 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 <clipPath id="bar"><rect x="330" y="100" width="503" height="10" rx="5" /></clipPath>
 <rect x="330" y="100" width="503" height="10" rx="5" fill="#D0D7DE" />
 <g clip-path="url(#bar)"><g class="grow" style="animation-delay:.3s">
-<rect x="330.00" y="100" width="159.68" height="10" fill="#3178C6" />
-<rect x="491.68" y="100" width="87.82" height="10" fill="#3572A5" />
-<rect x="581.50" y="100" width="69.86" height="10" fill="#F1E05A" />
-<rect x="653.36" y="100" width="33.93" height="10" fill="#355570" />
-<rect x="689.29" y="100" width="27.94" height="10" fill="#00B4AB" />
-<rect x="719.23" y="100" width="27.94" height="10" fill="#E34C26" />
-<rect x="749.17" y="100" width="15.96" height="10" fill="#F34B7D" />
-<rect x="767.13" y="100" width="65.87" height="10" fill="#8B949E" />
+<rect x="330.00" y="100" width="157.78" height="10" fill="#3178C6" />
+<rect x="489.78" y="100" width="86.76" height="10" fill="#3572A5" />
+<rect x="578.54" y="100" width="69.01" height="10" fill="#F1E05A" />
+<rect x="649.55" y="100" width="33.51" height="10" fill="#355570" />
+<rect x="685.06" y="100" width="27.59" height="10" fill="#00B4AB" />
+<rect x="714.65" y="100" width="27.59" height="10" fill="#E34C26" />
+<rect x="744.24" y="100" width="15.75" height="10" fill="#F34B7D" />
+<rect x="761.99" y="100" width="71.01" height="10" fill="#8B949E" />
 </g></g>
 <g class="line" style="animation-delay:0.45s">
 <circle cx="335" cy="136" r="5" fill="#3178C6" />
@@ -92,6 +92,6 @@ text { font-family: 'DejaVu Sans Mono', 'Liberation Mono', Consolas, monospace; 
 <g class="line" style="animation-delay:0.80s">
 <circle cx="597" cy="220" r="5" fill="#8B949E" />
 <text x="610" y="224" fill="#24292F" font-size="12">Outras</text>
-<text x="830" y="224" text-anchor="end" fill="#57606A" font-size="12">13%</text>
+<text x="830" y="224" text-anchor="end" fill="#57606A" font-size="12">14%</text>
 </g>
 </svg>

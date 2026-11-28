@@ -1,7 +1,7 @@
 {
   "commits": 757,
   "pull_requests": 12,
-  "repositories": 85,
+  "repositories": 86,
   "stars": 2,
   "followers": 4,
   "languages": {
@@ -19,6 +19,7 @@
     "Java": 1,
     "G-code": 1,
     "Shell": 1,
-    "TeX": 1
+    "TeX": 1,
+    "Go": 1
   }
 }
